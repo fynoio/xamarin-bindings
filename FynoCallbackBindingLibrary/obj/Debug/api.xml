@@ -1,0 +1,57 @@
+<api api-source="JavaTypeSystem">
+  <package name="io.fyno.callback" jni-name="io/fyno/callback">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lio/fyno/callback/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="io.fyno.callback.BuildConfig" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="LIBRARY_PACKAGE_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;io.fyno.callback&quot;" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="FynoCallback" static="false" visibility="public" jni-signature="Lio/fyno/callback/FynoCallback;">
+      <constructor deprecated="not deprecated" final="false" name="FynoCallback" jni-signature="()V" bridge="false" static="false" type="io.fyno.callback.FynoCallback" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="updateStatus" jni-signature="(Ljava/lang/String;Lio/fyno/callback/models/MessageStatus;Lorg/json/JSONObject;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="callback_url" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="status" type="io.fyno.callback.models.MessageStatus" jni-type="Lio/fyno/callback/models/MessageStatus;" not-null="true" />
+        <parameter name="action" type="org.json.JSONObject" jni-type="Lorg/json/JSONObject;" />
+      </method>
+    </class>
+  </package>
+  <package name="io.fyno.callback.models" jni-name="io/fyno/callback/models">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;io.fyno.callback.models.MessageStatus&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="MessageStatus" static="false" visibility="public" jni-signature="Lio/fyno/callback/models/MessageStatus;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lio/fyno/callback/models/MessageStatus;" bridge="false" native="false" return="io.fyno.callback.models.MessageStatus" jni-return="Lio/fyno/callback/models/MessageStatus;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="value" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lio/fyno/callback/models/MessageStatus;" bridge="false" native="false" return="io.fyno.callback.models.MessageStatus[]" jni-return="[Lio/fyno/callback/models/MessageStatus;" static="true" synchronized="false" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="CLICKED" jni-signature="Lio/fyno/callback/models/MessageStatus;" static="true" transient="false" type="io.fyno.callback.models.MessageStatus" type-generic-aware="io.fyno.callback.models.MessageStatus" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="DISMISSED" jni-signature="Lio/fyno/callback/models/MessageStatus;" static="true" transient="false" type="io.fyno.callback.models.MessageStatus" type-generic-aware="io.fyno.callback.models.MessageStatus" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="OPENED" jni-signature="Lio/fyno/callback/models/MessageStatus;" static="true" transient="false" type="io.fyno.callback.models.MessageStatus" type-generic-aware="io.fyno.callback.models.MessageStatus" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="OPT_OUT" jni-signature="Lio/fyno/callback/models/MessageStatus;" static="true" transient="false" type="io.fyno.callback.models.MessageStatus" type-generic-aware="io.fyno.callback.models.MessageStatus" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="RECEIVED" jni-signature="Lio/fyno/callback/models/MessageStatus;" static="true" transient="false" type="io.fyno.callback.models.MessageStatus" type-generic-aware="io.fyno.callback.models.MessageStatus" visibility="public" volatile="false" />
+    </class>
+  </package>
+  <package name="io.fyno.callback.utils" jni-name="io/fyno/callback/utils">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="NetworkDetails" static="false" visibility="public" jni-signature="Lio/fyno/callback/utils/NetworkDetails;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="getNetworkType" jni-signature="(Landroid/content/Context;)Lio/fyno/callback/utils/NetworkType;" bridge="false" native="false" return="io.fyno.callback.utils.NetworkType" jni-return="Lio/fyno/callback/utils/NetworkType;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="isOnline" jni-signature="(Landroid/content/Context;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" not-null="true" />
+      </method>
+      <field deprecated="not deprecated" final="true" name="INSTANCE" jni-signature="Lio/fyno/callback/utils/NetworkDetails;" not-null="true" static="true" transient="false" type="io.fyno.callback.utils.NetworkDetails" type-generic-aware="io.fyno.callback.utils.NetworkDetails" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;io.fyno.callback.utils.NetworkType&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="NetworkType" static="false" visibility="public" jni-signature="Lio/fyno/callback/utils/NetworkType;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="getNetworkName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lio/fyno/callback/utils/NetworkType;" bridge="false" native="false" return="io.fyno.callback.utils.NetworkType" jni-return="Lio/fyno/callback/utils/NetworkType;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="value" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lio/fyno/callback/utils/NetworkType;" bridge="false" native="false" return="io.fyno.callback.utils.NetworkType[]" jni-return="[Lio/fyno/callback/utils/NetworkType;" static="true" synchronized="false" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="CELLULAR" jni-signature="Lio/fyno/callback/utils/NetworkType;" static="true" transient="false" type="io.fyno.callback.utils.NetworkType" type-generic-aware="io.fyno.callback.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="G2" jni-signature="Lio/fyno/callback/utils/NetworkType;" static="true" transient="false" type="io.fyno.callback.utils.NetworkType" type-generic-aware="io.fyno.callback.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="G3" jni-signature="Lio/fyno/callback/utils/NetworkType;" static="true" transient="false" type="io.fyno.callback.utils.NetworkType" type-generic-aware="io.fyno.callback.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="G4" jni-signature="Lio/fyno/callback/utils/NetworkType;" static="true" transient="false" type="io.fyno.callback.utils.NetworkType" type-generic-aware="io.fyno.callback.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="G5" jni-signature="Lio/fyno/callback/utils/NetworkType;" static="true" transient="false" type="io.fyno.callback.utils.NetworkType" type-generic-aware="io.fyno.callback.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="UNKNOWN" jni-signature="Lio/fyno/callback/utils/NetworkType;" static="true" transient="false" type="io.fyno.callback.utils.NetworkType" type-generic-aware="io.fyno.callback.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VPN" jni-signature="Lio/fyno/callback/utils/NetworkType;" static="true" transient="false" type="io.fyno.callback.utils.NetworkType" type-generic-aware="io.fyno.callback.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="WIFI" jni-signature="Lio/fyno/callback/utils/NetworkType;" static="true" transient="false" type="io.fyno.callback.utils.NetworkType" type-generic-aware="io.fyno.callback.utils.NetworkType" visibility="public" volatile="false" />
+    </class>
+  </package>
+</api>

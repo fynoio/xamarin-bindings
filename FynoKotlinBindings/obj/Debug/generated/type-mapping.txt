@@ -1,0 +1,13 @@
+io/fyno/kotlin_core/BuildConfig = IO.Fyno.Kotlin_core.BuildConfig
+  <init>()V = .ctor()
+  BUILD_TYPE = BuildType
+  DEBUG = Debug
+  LIBRARY_PACKAGE_NAME = LibraryPackageName
+io/fyno/kotlin_sdk/FynoSdk = IO.Fyno.Kotlin_sdk.FynoSdk
+  INSTANCE = Instance
+  identify(Ljava/lang/String;Ljava/lang/String;)V = Identify(string, string)
+  initialize(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V = Initialize(Android.Content.Context, string, string, string, string)
+  mergeProfile(Ljava/lang/String;Ljava/lang/String;)V = MergeProfile(string, string)
+  resetConfig()V = ResetConfig()
+  resetUser()V = ResetUser()
+  saveConfig(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V = SaveConfig(string, string, string, string)

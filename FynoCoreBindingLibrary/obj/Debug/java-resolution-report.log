@@ -1,0 +1,24 @@
+==== Cycle 1 ====
+
+The method '[Method] android.content.SharedPreferences access$getFynoPreferences$cp()' was removed because its name contains a dollar sign.
+The method '[Method] void access$setFynoPreferences$cp(android.content.SharedPreferences <set-?>)' was removed because its name contains a dollar sign.
+The constructor 'Constructor: io.fyno.core.FynoCore.Companion.FynoCore.Companion' was removed because the Java parameter type 'kotlin.jvm.internal.DefaultConstructorMarker' could not be found.
+The method '[Method] org.json.JSONObject access$getParamsObj(io.fyno.core.FynoCore.Companion $this, java.lang.String uniqueId, java.lang.String name)' was removed because its name contains a dollar sign.
+The method '[Method] void access$setFlag(io.fyno.core.FynoCore.Companion $this, java.lang.String key, boolean value)' was removed because its name contains a dollar sign.
+The method '[Method] void identify$default(io.fyno.core.FynoCore.Companion p0, java.lang.String p1, java.lang.String p2, boolean p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void initialize$default(io.fyno.core.FynoCore.Companion p0, android.content.Context p1, java.lang.String p2, java.lang.String p3, java.lang.String p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$getIntegrationId(io.fyno.core.FynoUser $this, java.lang.String tokenType)' was removed because its name contains a dollar sign.
+The method '[Method] kotlinx.coroutines.channels.Channel access$getRequestChannel$p()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object access$handleRetries(io.fyno.core.RequestHandler $this, io.fyno.core.RequestHandler.Request request, kotlin.coroutines.Continuation $completion)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object access$sendRequest(io.fyno.core.RequestHandler $this, io.fyno.core.RequestHandler.Request request, kotlin.coroutines.Continuation $completion)' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.ConcurrentLinkedQueue<io.fyno.core.RequestHandler.Request> getOfflineRequestsQueue$fyno_kotlin_core_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object processOfflineRequests(kotlin.coroutines.Continuation<? super kotlin.Unit> p0)' was removed because the Java parameter type 'kotlin.coroutines.Continuation' could not be found.
+The method '[Method] java.lang.Object requestPOST$default(io.fyno.core.RequestHandler p0, java.lang.String p1, org.json.JSONObject p2, java.lang.String p3, kotlin.coroutines.Continuation p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object requestPOST(java.lang.String r_url, org.json.JSONObject postDataParams, java.lang.String method, kotlin.coroutines.Continuation<? super kotlin.Unit> p3)' was removed because the Java parameter type 'kotlin.coroutines.Continuation' could not be found.
+The method '[Method] io.fyno.core.RequestHandler.Request copy$default(io.fyno.core.RequestHandler.Request p0, java.lang.String p1, org.json.JSONObject p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The constructor 'Constructor: io.fyno.core.helpers.SQLDataHelper.Companion.SQLDataHelper.Companion' was removed because the Java parameter type 'kotlin.jvm.internal.DefaultConstructorMarker' could not be found.
+The method '[Method] java.lang.String getEndpoint$default(io.fyno.core.utils.FynoUtils p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, java.lang.String p4, java.lang.String p5, java.lang.String p6, int p7, java.lang.Object p8)' was removed because its name contains a dollar sign.
+The method '[Method] io.fyno.core.utils.HttpRequest copy$default(io.fyno.core.utils.HttpRequest p0, java.lang.String p1, org.json.JSONObject p2, java.lang.String p3, int p4, int p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] void d$default(io.fyno.core.utils.Logger p0, java.lang.String p1, java.lang.String p2, java.lang.Throwable p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void w$default(io.fyno.core.utils.Logger p0, java.lang.String p1, java.lang.String p2, java.lang.Throwable p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+

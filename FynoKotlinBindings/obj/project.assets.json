@@ -1,0 +1,56 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v13.0": {},
+    "MonoAndroid,Version=v13.0/win": {},
+    "MonoAndroid,Version=v13.0/win-x64": {},
+    "MonoAndroid,Version=v13.0/win-x86": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v13.0": []
+  },
+  "packageFolders": {
+    "/Users/saivinodk/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/FynoKotlinBindings.csproj",
+      "projectName": "FynoKotlinBindings",
+      "projectPath": "/Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/FynoKotlinBindings.csproj",
+      "packagesPath": "/Users/saivinodk/.nuget/packages/",
+      "outputPath": "/Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/saivinodk/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid13.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid13.0": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

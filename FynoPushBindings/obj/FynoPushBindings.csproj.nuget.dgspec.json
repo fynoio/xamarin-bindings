@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/FynoPushBindings.csproj": {}
+  },
+  "projects": {
+    "/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/FynoPushBindings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/FynoPushBindings.csproj",
+        "projectName": "FynoPushBindings",
+        "projectPath": "/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/FynoPushBindings.csproj",
+        "packagesPath": "/Users/saivinodk/.nuget/packages/",
+        "outputPath": "/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/saivinodk/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "Xamarin.Android.Glide": {
+              "target": "Package",
+              "version": "[4.16.0.1, )"
+            },
+            "Xamarin.Firebase.Core": {
+              "target": "Package",
+              "version": "[121.1.1.5, )"
+            },
+            "Xamarin.Firebase.Iid": {
+              "target": "Package",
+              "version": "[121.1.0.12, )"
+            },
+            "Xamarin.Firebase.Messaging": {
+              "target": "Package",
+              "version": "[123.2.1.1, )"
+            },
+            "Xamarin.GooglePlayServices.Base": {
+              "target": "Package",
+              "version": "[118.2.0.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

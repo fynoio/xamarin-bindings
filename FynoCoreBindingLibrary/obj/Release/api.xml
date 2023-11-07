@@ -1,0 +1,310 @@
+<api api-source="JavaTypeSystem">
+  <package name="io.fyno.core" jni-name="io/fyno/core">
+    <class abstract="false" deprecated="not deprecated" extends="android.net.ConnectivityManager.NetworkCallback" extends-generic-aware="android.net.ConnectivityManager.NetworkCallback" jni-extends="Landroid/net/ConnectivityManager$NetworkCallback;" final="true" name="ConnectionStateMonitor" static="false" visibility="public" jni-signature="Lio/fyno/core/ConnectionStateMonitor;">
+      <constructor deprecated="not deprecated" final="false" name="ConnectionStateMonitor" jni-signature="()V" bridge="false" static="false" type="io.fyno.core.ConnectionStateMonitor" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="enable" jni-signature="(Landroid/content/Context;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" not-null="true" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="FynoCore" static="false" visibility="public" jni-signature="Lio/fyno/core/FynoCore;">
+      <constructor deprecated="not deprecated" final="false" name="FynoCore" jni-signature="()V" bridge="false" static="false" type="io.fyno.core.FynoCore" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="false" name="appContext" jni-signature="Landroid/content/Context;" static="true" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="Companion" jni-signature="Lio/fyno/core/FynoCore$Companion;" not-null="true" static="true" transient="false" type="io.fyno.core.FynoCore.Companion" type-generic-aware="io.fyno.core.FynoCore.Companion" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="TAG" jni-signature="Ljava/lang/String;" not-null="true" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;FynoSDK&quot;" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="FynoCore.Companion" static="true" visibility="public" jni-signature="Lio/fyno/core/FynoCore$Companion;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="areNotificationPermissionsEnabled" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getAppContext" jni-signature="()Landroid/content/Context;" bridge="false" native="false" return="android.content.Context" jni-return="Landroid/content/Context;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getString" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true">
+        <parameter name="key" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="identify" jni-signature="(Ljava/lang/String;Ljava/lang/String;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="uniqueId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="update" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="initialize" jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" not-null="true" />
+        <parameter name="WSId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="token" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="version" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="mergeProfile" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="oldDistinctId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="newDistinctId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="resetConfig" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="resetUser" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="saveConfig" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="wsId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="apiKey" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="fcmIntegration" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="miIntegration" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setAppContext" jni-signature="(Landroid/content/Context;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="value" type="android.content.Context" jni-type="Landroid/content/Context;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setLogLevel" jni-signature="(Lio/fyno/core/utils/LogLevel;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="level" type="io.fyno.core.utils.LogLevel" jni-type="Lio/fyno/core/utils/LogLevel;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="testNetwork" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="FynoUser" static="false" visibility="public" jni-signature="Lio/fyno/core/FynoUser;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="getApi" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getApnsToken" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getEmail" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getFcmIntegration" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getFcmToken" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getFynoIntegration" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getIdentity" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getMiIntegration" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getMiToken" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getMobile" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getUserName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getWhatsapp" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getWorkspace" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="identify" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="distinctId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setApi" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="secret" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setApnsToken" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="token" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setEmail" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="email" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setFcmIntegration" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="integrationId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setFcmToken" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="token" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setFynoIntegration" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="integrationId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setMiIntegration" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="integrationId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setMiToken" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="token" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setMobile" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="mobile" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setUserName" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setWhatsapp" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="mobile" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setWorkspace" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="workspaceId" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <field deprecated="not deprecated" final="true" name="INSTANCE" jni-signature="Lio/fyno/core/FynoUser;" not-null="true" static="true" transient="false" type="io.fyno.core.FynoUser" type-generic-aware="io.fyno.core.FynoUser" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" jni-extends="Landroid/content/BroadcastReceiver;" final="true" name="NetworkStateReceiver" static="false" visibility="public" jni-signature="Lio/fyno/core/NetworkStateReceiver;">
+      <constructor deprecated="not deprecated" final="false" name="NetworkStateReceiver" jni-signature="()V" bridge="false" static="false" type="io.fyno.core.NetworkStateReceiver" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" jni-signature="(Landroid/content/Context;Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="intent" type="android.content.Intent" jni-type="Landroid/content/Intent;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="RequestHandler" static="false" visibility="public" jni-signature="Lio/fyno/core/RequestHandler;">
+      <field deprecated="not deprecated" final="true" name="INSTANCE" jni-signature="Lio/fyno/core/RequestHandler;" not-null="true" static="true" transient="false" type="io.fyno.core.RequestHandler" type-generic-aware="io.fyno.core.RequestHandler" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="RequestHandler.Request" static="true" visibility="public" jni-signature="Lio/fyno/core/RequestHandler$Request;">
+      <constructor deprecated="not deprecated" final="false" name="RequestHandler.Request" jni-signature="(Ljava/lang/String;Lorg/json/JSONObject;Ljava/lang/String;)V" bridge="false" static="false" type="io.fyno.core.RequestHandler.Request" synthetic="false" visibility="public">
+        <parameter name="url" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="postData" type="org.json.JSONObject" jni-type="Lorg/json/JSONObject;" />
+        <parameter name="method" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="component1" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="component2" jni-signature="()Lorg/json/JSONObject;" bridge="false" native="false" return="org.json.JSONObject" jni-return="Lorg/json/JSONObject;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="component3" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="copy" jni-signature="(Ljava/lang/String;Lorg/json/JSONObject;Ljava/lang/String;)Lio/fyno/core/RequestHandler$Request;" bridge="false" native="false" return="io.fyno.core.RequestHandler.Request" jni-return="Lio/fyno/core/RequestHandler$Request;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true">
+        <parameter name="url" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="postData" type="org.json.JSONObject" jni-type="Lorg/json/JSONObject;" />
+        <parameter name="method" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getMethod" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getPostData" jni-signature="()Lorg/json/JSONObject;" bridge="false" native="false" return="org.json.JSONObject" jni-return="Lorg/json/JSONObject;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getUrl" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+  </package>
+  <package name="io.fyno.core.helpers" jni-name="io/fyno/core/helpers">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Config" static="false" visibility="public" jni-signature="Lio/fyno/core/helpers/Config;">
+      <constructor deprecated="not deprecated" final="false" name="Config" jni-signature="()V" bridge="false" static="false" type="io.fyno.core.helpers.Config" synthetic="false" visibility="public" />
+      <constructor deprecated="not deprecated" final="false" name="Config" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V" bridge="false" static="false" type="io.fyno.core.helpers.Config" synthetic="false" visibility="public">
+        <parameter name="key" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="value" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="id" type="java.lang.Integer" jni-type="Ljava/lang/Integer;" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getId" jni-signature="()Ljava/lang/Integer;" bridge="false" native="false" return="java.lang.Integer" jni-return="Ljava/lang/Integer;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getKey" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getValue" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="setId" jni-signature="(Ljava/lang/Integer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="&lt;set-?&gt;" type="java.lang.Integer" jni-type="Ljava/lang/Integer;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setKey" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="value" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setValue" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="value" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.database.sqlite.SQLiteOpenHelper" extends-generic-aware="android.database.sqlite.SQLiteOpenHelper" jni-extends="Landroid/database/sqlite/SQLiteOpenHelper;" final="true" name="SQLDataHelper" static="false" visibility="public" jni-signature="Lio/fyno/core/helpers/SQLDataHelper;">
+      <constructor deprecated="not deprecated" final="false" name="SQLDataHelper" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="io.fyno.core.helpers.SQLDataHelper" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="deleteAllConfigs" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getConfigByKey" jni-signature="(Ljava/lang/String;)Lio/fyno/core/helpers/Config;" bridge="false" native="false" return="io.fyno.core.helpers.Config" jni-return="Lio/fyno/core/helpers/Config;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true">
+        <parameter name="key" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="insertConfigByKey" jni-signature="(Lio/fyno/core/helpers/Config;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="table_model_obj" type="io.fyno.core.helpers.Config" jni-type="Lio/fyno/core/helpers/Config;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onCreate" jni-signature="(Landroid/database/sqlite/SQLiteDatabase;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="db" type="android.database.sqlite.SQLiteDatabase" jni-type="Landroid/database/sqlite/SQLiteDatabase;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onUpgrade" jni-signature="(Landroid/database/sqlite/SQLiteDatabase;II)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="db" type="android.database.sqlite.SQLiteDatabase" jni-type="Landroid/database/sqlite/SQLiteDatabase;" not-null="true" />
+        <parameter name="oldVersion" type="int" jni-type="I" />
+        <parameter name="newVersion" type="int" jni-type="I" />
+      </method>
+      <field deprecated="not deprecated" final="true" name="Companion" jni-signature="Lio/fyno/core/helpers/SQLDataHelper$Companion;" not-null="true" static="true" transient="false" type="io.fyno.core.helpers.SQLDataHelper.Companion" type-generic-aware="io.fyno.core.helpers.SQLDataHelper.Companion" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="SQLDataHelper.Companion" static="true" visibility="public" jni-signature="Lio/fyno/core/helpers/SQLDataHelper$Companion;" />
+  </package>
+  <package name="io.fyno.core.utils" jni-name="io/fyno/core/utils">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="FynoConstants" static="false" visibility="public" jni-signature="Lio/fyno/core/utils/FynoConstants;">
+      <field deprecated="not deprecated" final="true" name="DEV_ENDPOINT" jni-signature="Ljava/lang/String;" not-null="true" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;https://api.dev.fyno.io/v1&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="EVENT_PATH" jni-signature="Ljava/lang/String;" not-null="true" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;event&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="INSTANCE" jni-signature="Lio/fyno/core/utils/FynoConstants;" not-null="true" static="true" transient="false" type="io.fyno.core.utils.FynoConstants" type-generic-aware="io.fyno.core.utils.FynoConstants" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="PROD_ENDPOINT" jni-signature="Ljava/lang/String;" not-null="true" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;https://api.fyno.io/v1&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="PROFILE" jni-signature="Ljava/lang/String;" not-null="true" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;profiles&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="PUSH_VENDOR_APNS" jni-signature="Ljava/lang/String;" not-null="true" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;apns&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="PUSH_VENDOR_FCM" jni-signature="Ljava/lang/String;" not-null="true" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;fcm&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="PUSH_VENDOR_XIAOMI" jni-signature="Ljava/lang/String;" not-null="true" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;xiaomi&quot;" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="FynoContextCreator" static="false" visibility="public" jni-signature="Lio/fyno/core/utils/FynoContextCreator;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="getContext" jni-signature="()Landroid/content/Context;" bridge="false" native="false" return="android.content.Context" jni-return="Landroid/content/Context;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getSqlDataHelper" jni-signature="()Lio/fyno/core/helpers/SQLDataHelper;" bridge="false" native="false" return="io.fyno.core.helpers.SQLDataHelper" jni-return="Lio/fyno/core/helpers/SQLDataHelper;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="isInitialized" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="setContext" jni-signature="(Landroid/content/Context;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="value" type="android.content.Context" jni-type="Landroid/content/Context;" not-null="true" />
+      </method>
+      <field deprecated="not deprecated" final="false" name="context" jni-signature="Landroid/content/Context;" static="true" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="INSTANCE" jni-signature="Lio/fyno/core/utils/FynoContextCreator;" not-null="true" static="true" transient="false" type="io.fyno.core.utils.FynoContextCreator" type-generic-aware="io.fyno.core.utils.FynoContextCreator" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="FynoUtils" static="false" visibility="public" jni-signature="Lio/fyno/core/utils/FynoUtils;">
+      <constructor deprecated="not deprecated" final="false" name="FynoUtils" jni-signature="()V" bridge="false" static="false" type="io.fyno.core.utils.FynoUtils" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getEndpoint" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true">
+        <parameter name="event" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="ws" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="env" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="profile" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="newId" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="version" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="HttpRequest" static="false" visibility="public" jni-signature="Lio/fyno/core/utils/HttpRequest;">
+      <constructor deprecated="not deprecated" final="false" name="HttpRequest" jni-signature="(Ljava/lang/String;Lorg/json/JSONObject;Ljava/lang/String;II)V" bridge="false" static="false" type="io.fyno.core.utils.HttpRequest" synthetic="false" visibility="public">
+        <parameter name="url" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="postData" type="org.json.JSONObject" jni-type="Lorg/json/JSONObject;" />
+        <parameter name="method" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="maxRetries" type="int" jni-type="I" />
+        <parameter name="retryCount" type="int" jni-type="I" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="component1" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="component2" jni-signature="()Lorg/json/JSONObject;" bridge="false" native="false" return="org.json.JSONObject" jni-return="Lorg/json/JSONObject;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="component3" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="component4" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="component5" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="copy" jni-signature="(Ljava/lang/String;Lorg/json/JSONObject;Ljava/lang/String;II)Lio/fyno/core/utils/HttpRequest;" bridge="false" native="false" return="io.fyno.core.utils.HttpRequest" jni-return="Lio/fyno/core/utils/HttpRequest;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true">
+        <parameter name="url" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="postData" type="org.json.JSONObject" jni-type="Lorg/json/JSONObject;" />
+        <parameter name="method" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="maxRetries" type="int" jni-type="I" />
+        <parameter name="retryCount" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getMaxRetries" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getMethod" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getPostData" jni-signature="()Lorg/json/JSONObject;" bridge="false" native="false" return="org.json.JSONObject" jni-return="Lorg/json/JSONObject;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getRetryCount" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getUrl" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Logger" static="false" visibility="public" jni-signature="Lio/fyno/core/utils/Logger;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="d" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="tag" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="message" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="throwable" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="e" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="tag" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="message" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="throwable" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getLevel" jni-signature="()Lio/fyno/core/utils/LogLevel;" bridge="false" native="false" return="io.fyno.core.utils.LogLevel" jni-return="Lio/fyno/core/utils/LogLevel;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="i" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="tag" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="message" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setLevel" jni-signature="(Lio/fyno/core/utils/LogLevel;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="value" type="io.fyno.core.utils.LogLevel" jni-type="Lio/fyno/core/utils/LogLevel;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="w" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="tag" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="message" type="java.lang.String" jni-type="Ljava/lang/String;" not-null="true" />
+        <parameter name="throwable" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <field deprecated="not deprecated" final="true" name="INSTANCE" jni-signature="Lio/fyno/core/utils/Logger;" not-null="true" static="true" transient="false" type="io.fyno.core.utils.Logger" type-generic-aware="io.fyno.core.utils.Logger" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;io.fyno.core.utils.LogLevel&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="LogLevel" static="false" visibility="public" jni-signature="Lio/fyno/core/utils/LogLevel;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="getNum" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lio/fyno/core/utils/LogLevel;" bridge="false" native="false" return="io.fyno.core.utils.LogLevel" jni-return="Lio/fyno/core/utils/LogLevel;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="value" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lio/fyno/core/utils/LogLevel;" bridge="false" native="false" return="io.fyno.core.utils.LogLevel[]" jni-return="[Lio/fyno/core/utils/LogLevel;" static="true" synchronized="false" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Lio/fyno/core/utils/LogLevel;" static="true" transient="false" type="io.fyno.core.utils.LogLevel" type-generic-aware="io.fyno.core.utils.LogLevel" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="ERROR" jni-signature="Lio/fyno/core/utils/LogLevel;" static="true" transient="false" type="io.fyno.core.utils.LogLevel" type-generic-aware="io.fyno.core.utils.LogLevel" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="INFO" jni-signature="Lio/fyno/core/utils/LogLevel;" static="true" transient="false" type="io.fyno.core.utils.LogLevel" type-generic-aware="io.fyno.core.utils.LogLevel" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="OFF" jni-signature="Lio/fyno/core/utils/LogLevel;" static="true" transient="false" type="io.fyno.core.utils.LogLevel" type-generic-aware="io.fyno.core.utils.LogLevel" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VERBOSE" jni-signature="Lio/fyno/core/utils/LogLevel;" static="true" transient="false" type="io.fyno.core.utils.LogLevel" type-generic-aware="io.fyno.core.utils.LogLevel" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="NetworkDetails" static="false" visibility="public" jni-signature="Lio/fyno/core/utils/NetworkDetails;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="getConnectionType" jni-signature="(Landroid/content/Context;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getNetworkType" jni-signature="()Lio/fyno/core/utils/NetworkType;" bridge="false" native="false" return="io.fyno.core.utils.NetworkType" jni-return="Lio/fyno/core/utils/NetworkType;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="isOnline" jni-signature="(Landroid/content/Context;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" not-null="true" />
+      </method>
+      <field deprecated="not deprecated" final="true" name="INSTANCE" jni-signature="Lio/fyno/core/utils/NetworkDetails;" not-null="true" static="true" transient="false" type="io.fyno.core.utils.NetworkDetails" type-generic-aware="io.fyno.core.utils.NetworkDetails" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;io.fyno.core.utils.NetworkType&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="NetworkType" static="false" visibility="public" jni-signature="Lio/fyno/core/utils/NetworkType;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="getNetworkName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lio/fyno/core/utils/NetworkType;" bridge="false" native="false" return="io.fyno.core.utils.NetworkType" jni-return="Lio/fyno/core/utils/NetworkType;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="value" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lio/fyno/core/utils/NetworkType;" bridge="false" native="false" return="io.fyno.core.utils.NetworkType[]" jni-return="[Lio/fyno/core/utils/NetworkType;" static="true" synchronized="false" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="CELLULAR" jni-signature="Lio/fyno/core/utils/NetworkType;" static="true" transient="false" type="io.fyno.core.utils.NetworkType" type-generic-aware="io.fyno.core.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="G2" jni-signature="Lio/fyno/core/utils/NetworkType;" static="true" transient="false" type="io.fyno.core.utils.NetworkType" type-generic-aware="io.fyno.core.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="G3" jni-signature="Lio/fyno/core/utils/NetworkType;" static="true" transient="false" type="io.fyno.core.utils.NetworkType" type-generic-aware="io.fyno.core.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="G4" jni-signature="Lio/fyno/core/utils/NetworkType;" static="true" transient="false" type="io.fyno.core.utils.NetworkType" type-generic-aware="io.fyno.core.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="G5" jni-signature="Lio/fyno/core/utils/NetworkType;" static="true" transient="false" type="io.fyno.core.utils.NetworkType" type-generic-aware="io.fyno.core.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="UNKNOWN" jni-signature="Lio/fyno/core/utils/NetworkType;" static="true" transient="false" type="io.fyno.core.utils.NetworkType" type-generic-aware="io.fyno.core.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VPN" jni-signature="Lio/fyno/core/utils/NetworkType;" static="true" transient="false" type="io.fyno.core.utils.NetworkType" type-generic-aware="io.fyno.core.utils.NetworkType" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="WIFI" jni-signature="Lio/fyno/core/utils/NetworkType;" static="true" transient="false" type="io.fyno.core.utils.NetworkType" type-generic-aware="io.fyno.core.utils.NetworkType" visibility="public" volatile="false" />
+    </class>
+  </package>
+  <package name="io.fyno.kotlin_sdk" jni-name="io/fyno/kotlin_sdk">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lio/fyno/kotlin_sdk/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="io.fyno.kotlin_sdk.BuildConfig" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="LIBRARY_PACKAGE_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;io.fyno.kotlin_sdk&quot;" visibility="public" volatile="false" />
+    </class>
+  </package>
+</api>

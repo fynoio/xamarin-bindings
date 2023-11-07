@@ -1,0 +1,6 @@
+io.fyno.pushlibrary.models.MessageStatus:IO.Fyno.Pushlibrary.Models:MessageStatus
+io.fyno.pushlibrary.models.PushRegion:IO.Fyno.Pushlibrary.Models:PushRegion
+io.fyno.pushlibrary.notification.NotificationActionType:IO.Fyno.Pushlibrary.Notification:NotificationActionType
+io.fyno.pushlibrary.notification.NotificationChannelImportance:IO.Fyno.Pushlibrary.Notification:NotificationChannelImportance
+io.fyno.pushlibrary.notification.NotificationChannelVisibility:IO.Fyno.Pushlibrary.Notification:NotificationChannelVisibility
+io.fyno.pushlibrary.notification.NotificationPriority:IO.Fyno.Pushlibrary.Notification:NotificationPriority

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28;ANDROID_29;ANDROID_30;ANDROID_31;ANDROID_32;ANDROID_33</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Firebase.FcmHandlerService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.FynoBroadcastReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.FynoCallbackService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.FynoPush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Helper.NotificationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Models.MessageStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Models.PushRegion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.Actions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.BasicNotification.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.BigPicture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.BigText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.NotificationActionType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.NotificationChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.NotificationChannelImportance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.NotificationChannelVisibility.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.NotificationModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.NotificationPriority.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.RawMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.NotificationIntents.NotificationClickActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.NotificationIntents.NotificationDismissedReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

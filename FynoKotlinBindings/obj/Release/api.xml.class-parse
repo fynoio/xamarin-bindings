@@ -1,0 +1,1059 @@
+<api
+  api-source="class-parse">
+  <package
+    name="io.fyno.kotlin_core"
+    jni-name="io/fyno/kotlin_core">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="BuildConfig"
+      jni-signature="Lio/fyno/kotlin_core/BuildConfig;"
+      source-file-name="BuildConfig.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="BuildConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="BUILD_TYPE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;release&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEBUG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        value="false"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="LIBRARY_PACKAGE_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;io.fyno.kotlin_core&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+  <package
+    name="io.fyno.kotlin_sdk"
+    jni-name="io/fyno/kotlin_sdk">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="FynoJava"
+      jni-signature="Lio/fyno/kotlin_sdk/FynoJava;"
+      source-file-name="FynoJava.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="FynoJava"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="identify"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="uniqueId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialize"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="workspaceId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="token"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="userId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="registerPush"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Lio/fyno/pushlibrary/models/PushRegion;Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="xiaomiApplicationId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="xiaomiApplicationKey"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="pushRegion"
+          type="io.fyno.pushlibrary.models.PushRegion"
+          jni-type="Lio/fyno/pushlibrary/models/PushRegion;" />
+        <parameter
+          name="fcmIntegration"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="miIntegration"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="resetConfig"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="resetUser"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="saveConfig"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="wsId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="apiKey"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="fcmIntegration"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="miIntegration"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLogLevel"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lio/fyno/core/utils/LogLevel;)V">
+        <parameter
+          name="level"
+          type="io.fyno.core.utils.LogLevel"
+          jni-type="Lio/fyno/core/utils/LogLevel;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="FynoSdk"
+      jni-signature="Lio/fyno/kotlin_sdk/FynoSdk;"
+      source-file-name="FynoSdk.kt"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="identify$default"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lio/fyno/kotlin_sdk/FynoSdk;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="io.fyno.kotlin_sdk.FynoSdk"
+          jni-type="Lio/fyno/kotlin_sdk/FynoSdk;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p4"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="identify"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="uniqueId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+        <parameter
+          name="userName"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialize$default"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lio/fyno/kotlin_sdk/FynoSdk;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="io.fyno.kotlin_sdk.FynoSdk"
+          jni-type="Lio/fyno/kotlin_sdk/FynoSdk;" />
+        <parameter
+          name="p1"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p4"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p5"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p6"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p7"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="initialize"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;"
+          not-null="true" />
+        <parameter
+          name="workspaceId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+        <parameter
+          name="token"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+        <parameter
+          name="userId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="version"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="mergeProfile"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="oldDistinctId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+        <parameter
+          name="newDistinctId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="registerPush$default"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lio/fyno/kotlin_sdk/FynoSdk;Ljava/lang/String;Ljava/lang/String;Lio/fyno/pushlibrary/models/PushRegion;Ljava/lang/String;ILjava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="io.fyno.kotlin_sdk.FynoSdk"
+          jni-type="Lio/fyno/kotlin_sdk/FynoSdk;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="io.fyno.pushlibrary.models.PushRegion"
+          jni-type="Lio/fyno/pushlibrary/models/PushRegion;" />
+        <parameter
+          name="p4"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p5"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p6"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="registerPush"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Lio/fyno/pushlibrary/models/PushRegion;Ljava/lang/String;)V">
+        <parameter
+          name="xiaomiApplicationId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="xiaomiApplicationKey"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="pushRegion"
+          type="io.fyno.pushlibrary.models.PushRegion"
+          jni-type="Lio/fyno/pushlibrary/models/PushRegion;" />
+        <parameter
+          name="integrationId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="resetConfig"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="resetUser"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="saveConfig"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="wsId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+        <parameter
+          name="apiKey"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+        <parameter
+          name="fcmIntegration"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+        <parameter
+          name="miIntegration"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="setLogLevel"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lio/fyno/core/utils/LogLevel;)V">
+        <parameter
+          name="level"
+          type="io.fyno.core.utils.LogLevel"
+          jni-type="Lio/fyno/core/utils/LogLevel;"
+          not-null="true" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="INSTANCE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="io.fyno.kotlin_sdk.FynoSdk"
+        type-generic-aware="io.fyno.kotlin_sdk.FynoSdk"
+        jni-signature="Lio/fyno/kotlin_sdk/FynoSdk;"
+        not-null="true"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lio/fyno/kotlin_sdk/FynoSdk;"
+      enclosing-method-name="identify"
+      enclosing-method-signature="(Ljava/lang/String;Ljava/lang/String;)V"
+      jni-extends="Lkotlin/coroutines/jvm/internal/SuspendLambda;"
+      extends="kotlin.coroutines.jvm.internal.SuspendLambda"
+      extends-generic-aware="kotlin.coroutines.jvm.internal.SuspendLambda"
+      final="true"
+      name="FynoSdk.identify.1"
+      jni-signature="Lio/fyno/kotlin_sdk/FynoSdk$identify$1;"
+      source-file-name="FynoSdk.kt"
+      static="true"
+      visibility="">
+      <implements
+        name="kotlin.jvm.functions.Function2"
+        name-generic-aware="kotlin.jvm.functions.Function2&lt;kotlinx.coroutines.CoroutineScope, kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;, java.lang.Object&gt;"
+        jni-type="Lkotlin/jvm/functions/Function2&lt;Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;Ljava/lang/Object;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="create"
+        native="false"
+        return="kotlin.coroutines.Continuation&lt;kotlin.Unit&gt;"
+        jni-return="Lkotlin/coroutines/Continuation&lt;Lkotlin/Unit;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;"
+        return-not-null="true">
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;?&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;*&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p2"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="kotlinx.coroutines.CoroutineScope"
+          jni-type="Lkotlinx/coroutines/CoroutineScope;"
+          not-null="true" />
+        <parameter
+          name="p2"
+          type="kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invokeSuspend"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;"
+          not-null="true" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lio/fyno/kotlin_sdk/FynoSdk;"
+      enclosing-method-name="initialize"
+      enclosing-method-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+      jni-extends="Lkotlin/coroutines/jvm/internal/SuspendLambda;"
+      extends="kotlin.coroutines.jvm.internal.SuspendLambda"
+      extends-generic-aware="kotlin.coroutines.jvm.internal.SuspendLambda"
+      final="true"
+      name="FynoSdk.initialize.1"
+      jni-signature="Lio/fyno/kotlin_sdk/FynoSdk$initialize$1;"
+      source-file-name="FynoSdk.kt"
+      static="true"
+      visibility="">
+      <implements
+        name="kotlin.jvm.functions.Function2"
+        name-generic-aware="kotlin.jvm.functions.Function2&lt;kotlinx.coroutines.CoroutineScope, kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;, java.lang.Object&gt;"
+        jni-type="Lkotlin/jvm/functions/Function2&lt;Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;Ljava/lang/Object;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="create"
+        native="false"
+        return="kotlin.coroutines.Continuation&lt;kotlin.Unit&gt;"
+        jni-return="Lkotlin/coroutines/Continuation&lt;Lkotlin/Unit;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;"
+        return-not-null="true">
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;?&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;*&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p2"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="kotlinx.coroutines.CoroutineScope"
+          jni-type="Lkotlinx/coroutines/CoroutineScope;"
+          not-null="true" />
+        <parameter
+          name="p2"
+          type="kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invokeSuspend"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;"
+          not-null="true" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lio/fyno/kotlin_sdk/FynoSdk;"
+      enclosing-method-name="mergeProfile"
+      enclosing-method-signature="(Ljava/lang/String;Ljava/lang/String;)V"
+      jni-extends="Lkotlin/coroutines/jvm/internal/SuspendLambda;"
+      extends="kotlin.coroutines.jvm.internal.SuspendLambda"
+      extends-generic-aware="kotlin.coroutines.jvm.internal.SuspendLambda"
+      final="true"
+      name="FynoSdk.mergeProfile.1"
+      jni-signature="Lio/fyno/kotlin_sdk/FynoSdk$mergeProfile$1;"
+      source-file-name="FynoSdk.kt"
+      static="true"
+      visibility="">
+      <implements
+        name="kotlin.jvm.functions.Function2"
+        name-generic-aware="kotlin.jvm.functions.Function2&lt;kotlinx.coroutines.CoroutineScope, kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;, java.lang.Object&gt;"
+        jni-type="Lkotlin/jvm/functions/Function2&lt;Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;Ljava/lang/Object;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="create"
+        native="false"
+        return="kotlin.coroutines.Continuation&lt;kotlin.Unit&gt;"
+        jni-return="Lkotlin/coroutines/Continuation&lt;Lkotlin/Unit;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;"
+        return-not-null="true">
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;?&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;*&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p2"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="kotlinx.coroutines.CoroutineScope"
+          jni-type="Lkotlinx/coroutines/CoroutineScope;"
+          not-null="true" />
+        <parameter
+          name="p2"
+          type="kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invokeSuspend"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;"
+          not-null="true" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lio/fyno/kotlin_sdk/FynoSdk;"
+      enclosing-method-name="resetUser"
+      enclosing-method-signature="()V"
+      jni-extends="Lkotlin/coroutines/jvm/internal/SuspendLambda;"
+      extends="kotlin.coroutines.jvm.internal.SuspendLambda"
+      extends-generic-aware="kotlin.coroutines.jvm.internal.SuspendLambda"
+      final="true"
+      name="FynoSdk.resetUser.1"
+      jni-signature="Lio/fyno/kotlin_sdk/FynoSdk$resetUser$1;"
+      source-file-name="FynoSdk.kt"
+      static="true"
+      visibility="">
+      <implements
+        name="kotlin.jvm.functions.Function2"
+        name-generic-aware="kotlin.jvm.functions.Function2&lt;kotlinx.coroutines.CoroutineScope, kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;, java.lang.Object&gt;"
+        jni-type="Lkotlin/jvm/functions/Function2&lt;Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;Ljava/lang/Object;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="create"
+        native="false"
+        return="kotlin.coroutines.Continuation&lt;kotlin.Unit&gt;"
+        jni-return="Lkotlin/coroutines/Continuation&lt;Lkotlin/Unit;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;"
+        return-not-null="true">
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;?&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;*&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p2"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="kotlinx.coroutines.CoroutineScope"
+          jni-type="Lkotlinx/coroutines/CoroutineScope;"
+          not-null="true" />
+        <parameter
+          name="p2"
+          type="kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invokeSuspend"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;"
+          not-null="true" />
+      </method>
+    </class>
+  </package>
+</api>

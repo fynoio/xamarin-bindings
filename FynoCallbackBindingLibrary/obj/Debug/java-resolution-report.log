@@ -1,0 +1,4 @@
+==== Cycle 1 ====
+
+The method '[Method] void updateStatus$default(io.fyno.callback.FynoCallback p0, java.lang.String p1, io.fyno.callback.models.MessageStatus p2, org.json.JSONObject p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+

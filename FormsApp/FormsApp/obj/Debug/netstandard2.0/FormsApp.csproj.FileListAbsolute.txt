@@ -1,0 +1,15 @@
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/bin/Debug/netstandard2.0/FormsApp.deps.json
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/bin/Debug/netstandard2.0/FormsApp.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/bin/Debug/netstandard2.0/ref/FormsApp.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/bin/Debug/netstandard2.0/FormsApp.pdb
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/FormsApp.csproj.AssemblyReference.cache
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/FormsApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/FormsApp.AssemblyInfoInputs.cache
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/FormsApp.AssemblyInfo.cs
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/FormsApp.csproj.CoreCompileInputs.cache
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/FormsApp.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/refint/FormsApp.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp/obj/Debug/netstandard2.0/FormsApp.pdb

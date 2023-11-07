@@ -1,0 +1,8 @@
+==== Cycle 1 ====
+
+The method '[Method] void identify$default(io.fyno.kotlin_sdk.FynoSdk p0, java.lang.String p1, java.lang.String p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] void initialize$default(io.fyno.kotlin_sdk.FynoSdk p0, android.content.Context p1, java.lang.String p2, java.lang.String p3, java.lang.String p4, java.lang.String p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] void registerPush$default(io.fyno.kotlin_sdk.FynoSdk p0, java.lang.String p1, java.lang.String p2, io.fyno.pushlibrary.models.PushRegion p3, java.lang.String p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] void registerPush(java.lang.String xiaomiApplicationId, java.lang.String xiaomiApplicationKey, io.fyno.pushlibrary.models.PushRegion pushRegion, java.lang.String integrationId)' was removed because the Java parameter type 'io.fyno.pushlibrary.models.PushRegion' could not be found.
+The method '[Method] void setLogLevel(io.fyno.core.utils.LogLevel level)' was removed because the Java parameter type 'io.fyno.core.utils.LogLevel' could not be found.
+

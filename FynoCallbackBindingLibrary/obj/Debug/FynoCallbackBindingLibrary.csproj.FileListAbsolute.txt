@@ -1,0 +1,11 @@
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/bin/Debug/FynoCallbackBindingLibrary.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/bin/Debug/FynoCallbackBindingLibrary.pdb
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/obj/Debug/__AndroidLibraryProjects__.zip
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/obj/Debug/MonoAndroid,Version=v13.0.AssemblyAttributes.cs
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/obj/Debug/FynoCallbackBindingLibrary.csproj.AssemblyReference.cache
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/obj/Debug/stamp/_BuildLibraryImportsCache.stamp
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/obj/Debug/class-parse.rsp
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/obj/Debug/java-resolution-report.log
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/obj/Debug/FynoCallbackBindingLibrary.csproj.CoreCompileInputs.cache
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/obj/Debug/FynoCallbackBindingLibrary.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoCallbackBindingLibrary/obj/Debug/FynoCallbackBindingLibrary.pdb
