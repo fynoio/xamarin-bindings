@@ -7,6 +7,7 @@ using System;
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "io.fyno.pushlibrary.notification", Managed="IO.Fyno.Pushlibrary.Notification")]
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "io.fyno.pushlibrary.notificationIntents", Managed="IO.Fyno.Pushlibrary.NotificationIntents")]
 
+delegate void _JniMarshal_PP_V (IntPtr jnienv, IntPtr klass);
 delegate void _JniMarshal_PPL_V (IntPtr jnienv, IntPtr klass, IntPtr p0);
 delegate void _JniMarshal_PPLL_V (IntPtr jnienv, IntPtr klass, IntPtr p0, IntPtr p1);
 #if !NET

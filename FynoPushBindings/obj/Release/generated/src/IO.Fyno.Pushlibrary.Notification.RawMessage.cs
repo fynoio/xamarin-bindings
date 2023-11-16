@@ -63,11 +63,11 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			}
 		}
 
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='RawMessage']/constructor[@name='RawMessage' and count(parameter)=34 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.lang.Boolean'] and parameter[6][@type='io.fyno.pushlibrary.notification.NotificationChannelVisibility'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='io.fyno.pushlibrary.notification.NotificationChannelImportance'] and parameter[9][@type='io.fyno.pushlibrary.notification.NotificationPriority'] and parameter[10][@type='java.lang.String'] and parameter[11][@type='java.lang.String'] and parameter[12][@type='java.lang.String'] and parameter[13][@type='java.lang.String'] and parameter[14][@type='java.lang.String'] and parameter[15][@type='java.lang.String'] and parameter[16][@type='java.lang.String'] and parameter[17][@type='java.lang.String'] and parameter[18][@type='java.lang.String'] and parameter[19][@type='java.lang.String'] and parameter[20][@type='java.lang.String'] and parameter[21][@type='java.lang.String'] and parameter[22][@type='java.lang.String'] and parameter[23][@type='java.lang.String'] and parameter[24][@type='java.lang.Boolean'] and parameter[25][@type='java.lang.Long'] and parameter[26][@type='java.lang.String'] and parameter[27][@type='java.lang.Boolean'] and parameter[28][@type='java.lang.Boolean'] and parameter[29][@type='java.lang.Long'] and parameter[30][@type='java.lang.Boolean'] and parameter[31][@type='java.lang.Long'] and parameter[32][@type='java.util.List&lt;io.fyno.pushlibrary.notification.Actions&gt;'] and parameter[33][@type='java.lang.String'] and parameter[34][@type='java.lang.String']]"
-		[Register (".ctor", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V", "")]
-		public unsafe RawMessage (string id, string channelId, string channelName, string channelDescription, global::Java.Lang.Boolean showBadge, global::IO.Fyno.Pushlibrary.Notification.NotificationChannelVisibility channelLockScreenVisibility, string cSound, global::IO.Fyno.Pushlibrary.Notification.NotificationChannelImportance channelImportance, global::IO.Fyno.Pushlibrary.Notification.NotificationPriority priority, string smallIconDrawable, string color, string notificationTitle, string subTitle, string shortDescription, string longDescription, string ticker, string iconUrl, string imageUrl, string action, string sound, string category, string group, string groupSubText, global::Java.Lang.Boolean groupShowWhenTimeStamp, global::Java.Lang.Long groupWhenTimeStamp, string sortKey, global::Java.Lang.Boolean onGoing, global::Java.Lang.Boolean autoCancel, global::Java.Lang.Long timeoutAfter, global::Java.Lang.Boolean showWhenTimeStamp, global::Java.Lang.Long whenTimeStamp, global::System.Collections.Generic.IList<global::IO.Fyno.Pushlibrary.Notification.Actions> actions, string @callback, string template) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='RawMessage']/constructor[@name='RawMessage' and count(parameter)=35 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.lang.Boolean'] and parameter[6][@type='io.fyno.pushlibrary.notification.NotificationChannelVisibility'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='io.fyno.pushlibrary.notification.NotificationChannelImportance'] and parameter[9][@type='io.fyno.pushlibrary.notification.NotificationPriority'] and parameter[10][@type='java.lang.String'] and parameter[11][@type='java.lang.String'] and parameter[12][@type='java.lang.String'] and parameter[13][@type='java.lang.String'] and parameter[14][@type='java.lang.String'] and parameter[15][@type='java.lang.String'] and parameter[16][@type='java.lang.String'] and parameter[17][@type='java.lang.String'] and parameter[18][@type='java.lang.String'] and parameter[19][@type='java.lang.String'] and parameter[20][@type='java.lang.String'] and parameter[21][@type='java.lang.String'] and parameter[22][@type='java.lang.String'] and parameter[23][@type='java.lang.String'] and parameter[24][@type='java.lang.Boolean'] and parameter[25][@type='java.lang.Long'] and parameter[26][@type='java.lang.String'] and parameter[27][@type='java.lang.Boolean'] and parameter[28][@type='java.lang.Boolean'] and parameter[29][@type='java.lang.Long'] and parameter[30][@type='java.lang.Boolean'] and parameter[31][@type='java.lang.Long'] and parameter[32][@type='java.util.List&lt;io.fyno.pushlibrary.notification.Actions&gt;'] and parameter[33][@type='java.lang.String'] and parameter[34][@type='java.lang.String'] and parameter[35][@type='java.lang.String']]"
+		[Register (".ctor", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", "")]
+		public unsafe RawMessage (string id, string channelId, string channelName, string channelDescription, global::Java.Lang.Boolean showBadge, global::IO.Fyno.Pushlibrary.Notification.NotificationChannelVisibility channelLockScreenVisibility, string cSound, global::IO.Fyno.Pushlibrary.Notification.NotificationChannelImportance channelImportance, global::IO.Fyno.Pushlibrary.Notification.NotificationPriority priority, string smallIconDrawable, string color, string notificationTitle, string subTitle, string shortDescription, string longDescription, string ticker, string iconUrl, string imageUrl, string action, string sound, string category, string group, string groupSubText, global::Java.Lang.Boolean groupShowWhenTimeStamp, global::Java.Lang.Long groupWhenTimeStamp, string sortKey, global::Java.Lang.Boolean onGoing, global::Java.Lang.Boolean autoCancel, global::Java.Lang.Long timeoutAfter, global::Java.Lang.Boolean showWhenTimeStamp, global::Java.Lang.Long whenTimeStamp, global::System.Collections.Generic.IList<global::IO.Fyno.Pushlibrary.Notification.Actions> actions, string @callback, string template, string additional_data) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
-			const string __id = "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V";
+			const string __id = "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V";
 
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
@@ -95,8 +95,9 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			IntPtr native_actions = global::Android.Runtime.JavaList<global::IO.Fyno.Pushlibrary.Notification.Actions>.ToLocalJniHandle (actions);
 			IntPtr native__callback = JNIEnv.NewString ((string)@callback);
 			IntPtr native_template = JNIEnv.NewString ((string)template);
+			IntPtr native_additional_data = JNIEnv.NewString ((string)additional_data);
 			try {
-				JniArgumentValue* __args = stackalloc JniArgumentValue [34];
+				JniArgumentValue* __args = stackalloc JniArgumentValue [35];
 				__args [0] = new JniArgumentValue (native_id);
 				__args [1] = new JniArgumentValue (native_channelId);
 				__args [2] = new JniArgumentValue (native_channelName);
@@ -131,6 +132,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				__args [31] = new JniArgumentValue (native_actions);
 				__args [32] = new JniArgumentValue (native__callback);
 				__args [33] = new JniArgumentValue (native_template);
+				__args [34] = new JniArgumentValue (native_additional_data);
 				var __r = _members.InstanceMethods.StartCreateInstance (__id, ((object) this).GetType (), __args);
 				SetHandle (__r.Handle, JniHandleOwnership.TransferLocalRef);
 				_members.InstanceMethods.FinishCreateInstance (__id, this, __args);
@@ -158,6 +160,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				JNIEnv.DeleteLocalRef (native_actions);
 				JNIEnv.DeleteLocalRef (native__callback);
 				JNIEnv.DeleteLocalRef (native_template);
+				JNIEnv.DeleteLocalRef (native_additional_data);
 				global::System.GC.KeepAlive (showBadge);
 				global::System.GC.KeepAlive (channelLockScreenVisibility);
 				global::System.GC.KeepAlive (channelImportance);
@@ -194,6 +197,19 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				try {
 					var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, null);
 					return global::Android.Runtime.JavaList<global::IO.Fyno.Pushlibrary.Notification.Actions>.FromJniHandle (__rm.Handle, JniHandleOwnership.TransferLocalRef);
+				} finally {
+				}
+			}
+		}
+
+		public unsafe string Additional_data {
+			// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='RawMessage']/method[@name='getAdditional_data' and count(parameter)=0]"
+			[Register ("getAdditional_data", "()Ljava/lang/String;", "")]
+			get {
+				const string __id = "getAdditional_data.()Ljava/lang/String;";
+				try {
+					var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, null);
+					return JNIEnv.GetString (__rm.Handle, JniHandleOwnership.TransferLocalRef);
 				} finally {
 				}
 			}
@@ -964,6 +980,18 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			}
 		}
 
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='RawMessage']/method[@name='component35' and count(parameter)=0]"
+		[Register ("component35", "()Ljava/lang/String;", "")]
+		public unsafe string Component35 ()
+		{
+			const string __id = "component35.()Ljava/lang/String;";
+			try {
+				var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, null);
+				return JNIEnv.GetString (__rm.Handle, JniHandleOwnership.TransferLocalRef);
+			} finally {
+			}
+		}
+
 		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='RawMessage']/method[@name='component4' and count(parameter)=0]"
 		[Register ("component4", "()Ljava/lang/String;", "")]
 		public unsafe string Component4 ()
@@ -1036,11 +1064,11 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			}
 		}
 
-		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='RawMessage']/method[@name='copy' and count(parameter)=34 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.lang.Boolean'] and parameter[6][@type='io.fyno.pushlibrary.notification.NotificationChannelVisibility'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='io.fyno.pushlibrary.notification.NotificationChannelImportance'] and parameter[9][@type='io.fyno.pushlibrary.notification.NotificationPriority'] and parameter[10][@type='java.lang.String'] and parameter[11][@type='java.lang.String'] and parameter[12][@type='java.lang.String'] and parameter[13][@type='java.lang.String'] and parameter[14][@type='java.lang.String'] and parameter[15][@type='java.lang.String'] and parameter[16][@type='java.lang.String'] and parameter[17][@type='java.lang.String'] and parameter[18][@type='java.lang.String'] and parameter[19][@type='java.lang.String'] and parameter[20][@type='java.lang.String'] and parameter[21][@type='java.lang.String'] and parameter[22][@type='java.lang.String'] and parameter[23][@type='java.lang.String'] and parameter[24][@type='java.lang.Boolean'] and parameter[25][@type='java.lang.Long'] and parameter[26][@type='java.lang.String'] and parameter[27][@type='java.lang.Boolean'] and parameter[28][@type='java.lang.Boolean'] and parameter[29][@type='java.lang.Long'] and parameter[30][@type='java.lang.Boolean'] and parameter[31][@type='java.lang.Long'] and parameter[32][@type='java.util.List&lt;io.fyno.pushlibrary.notification.Actions&gt;'] and parameter[33][@type='java.lang.String'] and parameter[34][@type='java.lang.String']]"
-		[Register ("copy", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/RawMessage;", "")]
-		public unsafe global::IO.Fyno.Pushlibrary.Notification.RawMessage Copy (string id, string channelId, string channelName, string channelDescription, global::Java.Lang.Boolean showBadge, global::IO.Fyno.Pushlibrary.Notification.NotificationChannelVisibility channelLockScreenVisibility, string cSound, global::IO.Fyno.Pushlibrary.Notification.NotificationChannelImportance channelImportance, global::IO.Fyno.Pushlibrary.Notification.NotificationPriority priority, string smallIconDrawable, string color, string notificationTitle, string subTitle, string shortDescription, string longDescription, string ticker, string iconUrl, string imageUrl, string action, string sound, string category, string group, string groupSubText, global::Java.Lang.Boolean groupShowWhenTimeStamp, global::Java.Lang.Long groupWhenTimeStamp, string sortKey, global::Java.Lang.Boolean onGoing, global::Java.Lang.Boolean autoCancel, global::Java.Lang.Long timeoutAfter, global::Java.Lang.Boolean showWhenTimeStamp, global::Java.Lang.Long whenTimeStamp, global::System.Collections.Generic.IList<global::IO.Fyno.Pushlibrary.Notification.Actions> actions, string @callback, string template)
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='RawMessage']/method[@name='copy' and count(parameter)=35 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.lang.Boolean'] and parameter[6][@type='io.fyno.pushlibrary.notification.NotificationChannelVisibility'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='io.fyno.pushlibrary.notification.NotificationChannelImportance'] and parameter[9][@type='io.fyno.pushlibrary.notification.NotificationPriority'] and parameter[10][@type='java.lang.String'] and parameter[11][@type='java.lang.String'] and parameter[12][@type='java.lang.String'] and parameter[13][@type='java.lang.String'] and parameter[14][@type='java.lang.String'] and parameter[15][@type='java.lang.String'] and parameter[16][@type='java.lang.String'] and parameter[17][@type='java.lang.String'] and parameter[18][@type='java.lang.String'] and parameter[19][@type='java.lang.String'] and parameter[20][@type='java.lang.String'] and parameter[21][@type='java.lang.String'] and parameter[22][@type='java.lang.String'] and parameter[23][@type='java.lang.String'] and parameter[24][@type='java.lang.Boolean'] and parameter[25][@type='java.lang.Long'] and parameter[26][@type='java.lang.String'] and parameter[27][@type='java.lang.Boolean'] and parameter[28][@type='java.lang.Boolean'] and parameter[29][@type='java.lang.Long'] and parameter[30][@type='java.lang.Boolean'] and parameter[31][@type='java.lang.Long'] and parameter[32][@type='java.util.List&lt;io.fyno.pushlibrary.notification.Actions&gt;'] and parameter[33][@type='java.lang.String'] and parameter[34][@type='java.lang.String'] and parameter[35][@type='java.lang.String']]"
+		[Register ("copy", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/RawMessage;", "")]
+		public unsafe global::IO.Fyno.Pushlibrary.Notification.RawMessage Copy (string id, string channelId, string channelName, string channelDescription, global::Java.Lang.Boolean showBadge, global::IO.Fyno.Pushlibrary.Notification.NotificationChannelVisibility channelLockScreenVisibility, string cSound, global::IO.Fyno.Pushlibrary.Notification.NotificationChannelImportance channelImportance, global::IO.Fyno.Pushlibrary.Notification.NotificationPriority priority, string smallIconDrawable, string color, string notificationTitle, string subTitle, string shortDescription, string longDescription, string ticker, string iconUrl, string imageUrl, string action, string sound, string category, string group, string groupSubText, global::Java.Lang.Boolean groupShowWhenTimeStamp, global::Java.Lang.Long groupWhenTimeStamp, string sortKey, global::Java.Lang.Boolean onGoing, global::Java.Lang.Boolean autoCancel, global::Java.Lang.Long timeoutAfter, global::Java.Lang.Boolean showWhenTimeStamp, global::Java.Lang.Long whenTimeStamp, global::System.Collections.Generic.IList<global::IO.Fyno.Pushlibrary.Notification.Actions> actions, string @callback, string template, string additional_data)
 		{
-			const string __id = "copy.(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/RawMessage;";
+			const string __id = "copy.(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/RawMessage;";
 			IntPtr native_id = JNIEnv.NewString ((string)id);
 			IntPtr native_channelId = JNIEnv.NewString ((string)channelId);
 			IntPtr native_channelName = JNIEnv.NewString ((string)channelName);
@@ -1064,8 +1092,9 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			IntPtr native_actions = global::Android.Runtime.JavaList<global::IO.Fyno.Pushlibrary.Notification.Actions>.ToLocalJniHandle (actions);
 			IntPtr native__callback = JNIEnv.NewString ((string)@callback);
 			IntPtr native_template = JNIEnv.NewString ((string)template);
+			IntPtr native_additional_data = JNIEnv.NewString ((string)additional_data);
 			try {
-				JniArgumentValue* __args = stackalloc JniArgumentValue [34];
+				JniArgumentValue* __args = stackalloc JniArgumentValue [35];
 				__args [0] = new JniArgumentValue (native_id);
 				__args [1] = new JniArgumentValue (native_channelId);
 				__args [2] = new JniArgumentValue (native_channelName);
@@ -1100,6 +1129,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				__args [31] = new JniArgumentValue (native_actions);
 				__args [32] = new JniArgumentValue (native__callback);
 				__args [33] = new JniArgumentValue (native_template);
+				__args [34] = new JniArgumentValue (native_additional_data);
 				var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, __args);
 				return global::Java.Lang.Object.GetObject<global::IO.Fyno.Pushlibrary.Notification.RawMessage> (__rm.Handle, JniHandleOwnership.TransferLocalRef);
 			} finally {
@@ -1126,6 +1156,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				JNIEnv.DeleteLocalRef (native_actions);
 				JNIEnv.DeleteLocalRef (native__callback);
 				JNIEnv.DeleteLocalRef (native_template);
+				JNIEnv.DeleteLocalRef (native_additional_data);
 				global::System.GC.KeepAlive (showBadge);
 				global::System.GC.KeepAlive (channelLockScreenVisibility);
 				global::System.GC.KeepAlive (channelImportance);

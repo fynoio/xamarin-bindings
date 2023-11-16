@@ -20,11 +20,19 @@ namespace IO.Fyno.Pushlibrary {
 	public sealed partial class BuildConfig : global::Java.Lang.Object {
 		// Metadata.xml XPath field reference: path="/api/package[@name='io.fyno.pushlibrary']/class[@name='BuildConfig']/field[@name='BUILD_TYPE']"
 		[Register ("BUILD_TYPE")]
-		public const string BuildType = (string) "release";
+		public const string BuildType = (string) "debug";
+
 
 		// Metadata.xml XPath field reference: path="/api/package[@name='io.fyno.pushlibrary']/class[@name='BuildConfig']/field[@name='DEBUG']"
 		[Register ("DEBUG")]
-		public const bool Debug = (bool) false;
+		public static bool Debug {
+			get {
+				const string __id = "DEBUG.Z";
+
+				var __v = _members.StaticFields.GetBooleanValue (__id);
+				return __v;
+			}
+		}
 
 		// Metadata.xml XPath field reference: path="/api/package[@name='io.fyno.pushlibrary']/class[@name='BuildConfig']/field[@name='LIBRARY_PACKAGE_NAME']"
 		[Register ("LIBRARY_PACKAGE_NAME")]

@@ -34,7 +34,7 @@
         type="java.lang.String"
         type-generic-aware="java.lang.String"
         jni-signature="Ljava/lang/String;"
-        value="&quot;release&quot;"
+        value="&quot;debug&quot;"
         visibility="public"
         volatile="false" />
       <field
@@ -47,7 +47,6 @@
         type="boolean"
         type-generic-aware="boolean"
         jni-signature="Z"
-        value="false"
         visibility="public"
         volatile="false" />
       <field
@@ -799,7 +798,7 @@
         abstract="false"
         deprecated="not deprecated"
         final="true"
-        name="safeDouble$fyno_kotlin_push_release"
+        name="safeDouble$fyno_kotlin_push_debug"
         native="false"
         return="java.lang.Double"
         jni-return="Ljava/lang/Double;"
@@ -1674,7 +1673,7 @@
         visibility="public"
         bridge="false"
         synthetic="false"
-        jni-signature="(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;)V">
+        jni-signature="(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/Map;)V">
         <parameter
           name="priority"
           type="io.fyno.pushlibrary.notification.NotificationPriority"
@@ -1763,6 +1762,10 @@
           name="whenTimeStamp"
           type="java.lang.Long"
           jni-type="Ljava/lang/Long;" />
+        <parameter
+          name="additional_data"
+          type="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;" />
       </constructor>
       <method
         abstract="false"
@@ -1965,6 +1968,20 @@
         abstract="false"
         deprecated="not deprecated"
         final="true"
+        name="component22"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Map;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
         name="component3"
         native="false"
         return="java.lang.String"
@@ -2075,7 +2092,7 @@
         visibility="public"
         bridge="false"
         synthetic="true"
-        jni-signature="(Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;ILjava/lang/Object;)Lio/fyno/pushlibrary/notification/BasicNotification;">
+        jni-signature="(Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/Map;ILjava/lang/Object;)Lio/fyno/pushlibrary/notification/BasicNotification;">
         <parameter
           name="p0"
           type="io.fyno.pushlibrary.notification.BasicNotification"
@@ -2166,10 +2183,14 @@
           jni-type="Ljava/lang/Long;" />
         <parameter
           name="p22"
+          type="java.util.Map"
+          jni-type="Ljava/util/Map;" />
+        <parameter
+          name="p23"
           type="int"
           jni-type="I" />
         <parameter
-          name="p23"
+          name="p24"
           type="java.lang.Object"
           jni-type="Ljava/lang/Object;" />
       </method>
@@ -2186,7 +2207,7 @@
         visibility="public"
         bridge="false"
         synthetic="false"
-        jni-signature="(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;)Lio/fyno/pushlibrary/notification/BasicNotification;"
+        jni-signature="(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/Map;)Lio/fyno/pushlibrary/notification/BasicNotification;"
         return-not-null="true">
         <parameter
           name="priority"
@@ -2276,6 +2297,10 @@
           name="whenTimeStamp"
           type="java.lang.Long"
           jni-type="Ljava/lang/Long;" />
+        <parameter
+          name="additional_data"
+          type="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;" />
       </method>
       <method
         abstract="false"
@@ -2310,6 +2335,20 @@
         bridge="false"
         synthetic="false"
         jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getAdditional_data"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Map;" />
       <method
         abstract="false"
         deprecated="not deprecated"
@@ -3922,7 +3961,7 @@
         visibility="public"
         bridge="false"
         synthetic="false"
-        jni-signature="(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V">
+        jni-signature="(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V">
         <parameter
           name="id"
           type="java.lang.String"
@@ -3956,6 +3995,10 @@
           jni-type="Ljava/lang/String;" />
         <parameter
           name="template"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="additional_data"
           type="java.lang.String"
           jni-type="Ljava/lang/String;" />
       </constructor>
@@ -4077,6 +4120,20 @@
       <method
         abstract="false"
         deprecated="not deprecated"
+        final="true"
+        name="component9"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
         final="false"
         name="copy$default"
         native="false"
@@ -4087,7 +4144,7 @@
         visibility="public"
         bridge="false"
         synthetic="true"
-        jni-signature="(Lio/fyno/pushlibrary/notification/NotificationModel;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lio/fyno/pushlibrary/notification/NotificationModel;">
+        jni-signature="(Lio/fyno/pushlibrary/notification/NotificationModel;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lio/fyno/pushlibrary/notification/NotificationModel;">
         <parameter
           name="p0"
           type="io.fyno.pushlibrary.notification.NotificationModel"
@@ -4126,10 +4183,14 @@
           jni-type="Ljava/lang/String;" />
         <parameter
           name="p9"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p10"
           type="int"
           jni-type="I" />
         <parameter
-          name="p10"
+          name="p11"
           type="java.lang.Object"
           jni-type="Ljava/lang/Object;" />
       </method>
@@ -4146,7 +4207,7 @@
         visibility="public"
         bridge="false"
         synthetic="false"
-        jni-signature="(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/NotificationModel;"
+        jni-signature="(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/NotificationModel;"
         return-not-null="true">
         <parameter
           name="id"
@@ -4183,6 +4244,10 @@
           name="template"
           type="java.lang.String"
           jni-type="Ljava/lang/String;" />
+        <parameter
+          name="additional_data"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
       </method>
       <method
         abstract="false"
@@ -4217,6 +4282,20 @@
         bridge="false"
         synthetic="false"
         jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getAdditional_data"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
       <method
         abstract="false"
         deprecated="not deprecated"
@@ -4502,7 +4581,7 @@
         visibility="public"
         bridge="false"
         synthetic="false"
-        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V">
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V">
         <parameter
           name="id"
           type="java.lang.String"
@@ -4637,6 +4716,10 @@
           jni-type="Ljava/lang/String;" />
         <parameter
           name="template"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="additional_data"
           type="java.lang.String"
           jni-type="Ljava/lang/String;" />
       </constructor>
@@ -5036,6 +5119,20 @@
         abstract="false"
         deprecated="not deprecated"
         final="true"
+        name="component35"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
         name="component4"
         native="false"
         return="java.lang.String"
@@ -5129,7 +5226,7 @@
         visibility="public"
         bridge="false"
         synthetic="true"
-        jni-signature="(Lio/fyno/pushlibrary/notification/RawMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;IILjava/lang/Object;)Lio/fyno/pushlibrary/notification/RawMessage;">
+        jni-signature="(Lio/fyno/pushlibrary/notification/RawMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/Object;)Lio/fyno/pushlibrary/notification/RawMessage;">
         <parameter
           name="p0"
           type="io.fyno.pushlibrary.notification.RawMessage"
@@ -5272,14 +5369,18 @@
           jni-type="Ljava/lang/String;" />
         <parameter
           name="p35"
-          type="int"
-          jni-type="I" />
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
         <parameter
           name="p36"
           type="int"
           jni-type="I" />
         <parameter
           name="p37"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p38"
           type="java.lang.Object"
           jni-type="Ljava/lang/Object;" />
       </method>
@@ -5296,7 +5397,7 @@
         visibility="public"
         bridge="false"
         synthetic="false"
-        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/RawMessage;"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lio/fyno/pushlibrary/notification/NotificationChannelVisibility;Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannelImportance;Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/RawMessage;"
         return-not-null="true">
         <parameter
           name="id"
@@ -5434,6 +5535,10 @@
           name="template"
           type="java.lang.String"
           jni-type="Ljava/lang/String;" />
+        <parameter
+          name="additional_data"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
       </method>
       <method
         abstract="false"
@@ -5482,6 +5587,20 @@
         bridge="false"
         synthetic="false"
         jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getAdditional_data"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
       <method
         abstract="false"
         deprecated="not deprecated"
@@ -6172,6 +6291,20 @@
         abstract="false"
         deprecated="not deprecated"
         final="false"
+        name="onAction"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
         name="onCreate"
         native="false"
         return="void"
@@ -6186,6 +6319,26 @@
           name="savedInstanceState"
           type="android.os.Bundle"
           jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="setNotificationHandler"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="kotlin-internal"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lio/fyno/pushlibrary/notificationIntents/NotificationClickHandler;)V">
+        <parameter
+          name="handler"
+          type="io.fyno.pushlibrary.notificationIntents.NotificationClickHandler"
+          jni-type="Lio/fyno/pushlibrary/notificationIntents/NotificationClickHandler;"
+          not-null="true" />
       </method>
     </class>
     <class
@@ -6300,6 +6453,36 @@
           not-null="true" />
       </method>
     </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="NotificationClickHandler"
+      jni-signature="Lio/fyno/pushlibrary/notificationIntents/NotificationClickHandler;"
+      source-file-name="NotificationClickActivity.kt"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onNotificationClicked"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Bundle;)V">
+        <parameter
+          name="extras"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;"
+          not-null="true" />
+      </method>
+    </interface>
     <class
       abstract="false"
       deprecated="not deprecated"

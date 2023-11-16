@@ -17,6 +17,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Core.Utils.FynoUtils.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Core.Utils.HttpRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Core.Utils.Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Core.Utils.LoggerHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Core.Utils.LogLevel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Core.Utils.NetworkDetails.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Core.Utils.NetworkType.cs" />

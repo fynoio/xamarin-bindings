@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bwNMvpu14ntMmsKmGap4vkMfbG3YAeNsw7EP9ca4jflvbcJAtjgtNN6G/qGOMA2UdOM/tzdu0+w0kEDtpcL9xQ==",
+  "dgSpecHash": "qcJTC1F2mnUpq0l1q7DL+UmNqJ5c12DQJJRAW1R9Yp0SDuHwmvZnlqYjM6M/V2WSFVHMrimwZ3SJ9kQtoY2upw==",
   "success": true,
   "projectFilePath": "/Users/saivinodk/Projects/FynoAndroidBindings/FormsApp/FormsApp.Android/FormsApp.Android.csproj",
   "expectedPackageFiles": [
@@ -89,7 +89,7 @@
     "/Users/saivinodk/.nuget/packages/xamarin.firebase.installations.interop/117.1.0.5/xamarin.firebase.installations.interop.117.1.0.5.nupkg.sha512",
     "/Users/saivinodk/.nuget/packages/xamarin.firebase.measurement.connector/120.0.0.5/xamarin.firebase.measurement.connector.120.0.0.5.nupkg.sha512",
     "/Users/saivinodk/.nuget/packages/xamarin.firebase.messaging/123.2.1.1/xamarin.firebase.messaging.123.2.1.1.nupkg.sha512",
-    "/Users/saivinodk/.nuget/packages/xamarin.forms/5.0.0.2612/xamarin.forms.5.0.0.2612.nupkg.sha512",
+    "/Users/saivinodk/.nuget/packages/xamarin.forms/5.0.0.2622/xamarin.forms.5.0.0.2622.nupkg.sha512",
     "/Users/saivinodk/.nuget/packages/xamarin.google.android.datatransport.transportapi/3.0.0.9/xamarin.google.android.datatransport.transportapi.3.0.0.9.nupkg.sha512",
     "/Users/saivinodk/.nuget/packages/xamarin.google.android.datatransport.transportbackendcct/3.1.9.3/xamarin.google.android.datatransport.transportbackendcct.3.1.9.3.nupkg.sha512",
     "/Users/saivinodk/.nuget/packages/xamarin.google.android.datatransport.transportruntime/3.1.9.3/xamarin.google.android.datatransport.transportruntime.3.1.9.3.nupkg.sha512",

@@ -46,11 +46,11 @@ namespace IO.Fyno.Pushlibrary.Notification {
 		{
 		}
 
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='NotificationModel']/constructor[@name='NotificationModel' and count(parameter)=8 and parameter[1][@type='java.lang.String'] and parameter[2][@type='io.fyno.pushlibrary.notification.NotificationChannel'] and parameter[3][@type='io.fyno.pushlibrary.notification.BasicNotification'] and parameter[4][@type='io.fyno.pushlibrary.notification.BigText'] and parameter[5][@type='io.fyno.pushlibrary.notification.BigPicture'] and parameter[6][@type='java.util.List&lt;io.fyno.pushlibrary.notification.Actions&gt;'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='java.lang.String']]"
-		[Register (".ctor", "(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V", "")]
-		public unsafe NotificationModel (string id, global::IO.Fyno.Pushlibrary.Notification.NotificationChannel notificationChannel, global::IO.Fyno.Pushlibrary.Notification.BasicNotification BasicNotification, global::IO.Fyno.Pushlibrary.Notification.BigText bigText, global::IO.Fyno.Pushlibrary.Notification.BigPicture bigPicture, global::System.Collections.Generic.IList<global::IO.Fyno.Pushlibrary.Notification.Actions> actions, string @callback, string template) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='NotificationModel']/constructor[@name='NotificationModel' and count(parameter)=9 and parameter[1][@type='java.lang.String'] and parameter[2][@type='io.fyno.pushlibrary.notification.NotificationChannel'] and parameter[3][@type='io.fyno.pushlibrary.notification.BasicNotification'] and parameter[4][@type='io.fyno.pushlibrary.notification.BigText'] and parameter[5][@type='io.fyno.pushlibrary.notification.BigPicture'] and parameter[6][@type='java.util.List&lt;io.fyno.pushlibrary.notification.Actions&gt;'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='java.lang.String'] and parameter[9][@type='java.lang.String']]"
+		[Register (".ctor", "(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", "")]
+		public unsafe NotificationModel (string id, global::IO.Fyno.Pushlibrary.Notification.NotificationChannel notificationChannel, global::IO.Fyno.Pushlibrary.Notification.BasicNotification BasicNotification, global::IO.Fyno.Pushlibrary.Notification.BigText bigText, global::IO.Fyno.Pushlibrary.Notification.BigPicture bigPicture, global::System.Collections.Generic.IList<global::IO.Fyno.Pushlibrary.Notification.Actions> actions, string @callback, string template, string additional_data) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
-			const string __id = "(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V";
+			const string __id = "(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V";
 
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
@@ -59,8 +59,9 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			IntPtr native_actions = global::Android.Runtime.JavaList<global::IO.Fyno.Pushlibrary.Notification.Actions>.ToLocalJniHandle (actions);
 			IntPtr native__callback = JNIEnv.NewString ((string)@callback);
 			IntPtr native_template = JNIEnv.NewString ((string)template);
+			IntPtr native_additional_data = JNIEnv.NewString ((string)additional_data);
 			try {
-				JniArgumentValue* __args = stackalloc JniArgumentValue [8];
+				JniArgumentValue* __args = stackalloc JniArgumentValue [9];
 				__args [0] = new JniArgumentValue (native_id);
 				__args [1] = new JniArgumentValue ((notificationChannel == null) ? IntPtr.Zero : ((global::Java.Lang.Object) notificationChannel).Handle);
 				__args [2] = new JniArgumentValue ((BasicNotification == null) ? IntPtr.Zero : ((global::Java.Lang.Object) BasicNotification).Handle);
@@ -69,6 +70,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				__args [5] = new JniArgumentValue (native_actions);
 				__args [6] = new JniArgumentValue (native__callback);
 				__args [7] = new JniArgumentValue (native_template);
+				__args [8] = new JniArgumentValue (native_additional_data);
 				var __r = _members.InstanceMethods.StartCreateInstance (__id, ((object) this).GetType (), __args);
 				SetHandle (__r.Handle, JniHandleOwnership.TransferLocalRef);
 				_members.InstanceMethods.FinishCreateInstance (__id, this, __args);
@@ -77,6 +79,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				JNIEnv.DeleteLocalRef (native_actions);
 				JNIEnv.DeleteLocalRef (native__callback);
 				JNIEnv.DeleteLocalRef (native_template);
+				JNIEnv.DeleteLocalRef (native_additional_data);
 				global::System.GC.KeepAlive (notificationChannel);
 				global::System.GC.KeepAlive (BasicNotification);
 				global::System.GC.KeepAlive (bigText);
@@ -93,6 +96,19 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				try {
 					var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, null);
 					return global::Android.Runtime.JavaList<global::IO.Fyno.Pushlibrary.Notification.Actions>.FromJniHandle (__rm.Handle, JniHandleOwnership.TransferLocalRef);
+				} finally {
+				}
+			}
+		}
+
+		public unsafe string Additional_data {
+			// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='NotificationModel']/method[@name='getAdditional_data' and count(parameter)=0]"
+			[Register ("getAdditional_data", "()Ljava/lang/String;", "")]
+			get {
+				const string __id = "getAdditional_data.()Ljava/lang/String;";
+				try {
+					var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, null);
+					return JNIEnv.GetString (__rm.Handle, JniHandleOwnership.TransferLocalRef);
 				} finally {
 				}
 			}
@@ -298,17 +314,30 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			}
 		}
 
-		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='NotificationModel']/method[@name='copy' and count(parameter)=8 and parameter[1][@type='java.lang.String'] and parameter[2][@type='io.fyno.pushlibrary.notification.NotificationChannel'] and parameter[3][@type='io.fyno.pushlibrary.notification.BasicNotification'] and parameter[4][@type='io.fyno.pushlibrary.notification.BigText'] and parameter[5][@type='io.fyno.pushlibrary.notification.BigPicture'] and parameter[6][@type='java.util.List&lt;io.fyno.pushlibrary.notification.Actions&gt;'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='java.lang.String']]"
-		[Register ("copy", "(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/NotificationModel;", "")]
-		public unsafe global::IO.Fyno.Pushlibrary.Notification.NotificationModel Copy (string id, global::IO.Fyno.Pushlibrary.Notification.NotificationChannel notificationChannel, global::IO.Fyno.Pushlibrary.Notification.BasicNotification BasicNotification, global::IO.Fyno.Pushlibrary.Notification.BigText bigText, global::IO.Fyno.Pushlibrary.Notification.BigPicture bigPicture, global::System.Collections.Generic.IList<global::IO.Fyno.Pushlibrary.Notification.Actions> actions, string @callback, string template)
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='NotificationModel']/method[@name='component9' and count(parameter)=0]"
+		[Register ("component9", "()Ljava/lang/String;", "")]
+		public unsafe string Component9 ()
 		{
-			const string __id = "copy.(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/NotificationModel;";
+			const string __id = "component9.()Ljava/lang/String;";
+			try {
+				var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, null);
+				return JNIEnv.GetString (__rm.Handle, JniHandleOwnership.TransferLocalRef);
+			} finally {
+			}
+		}
+
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='NotificationModel']/method[@name='copy' and count(parameter)=9 and parameter[1][@type='java.lang.String'] and parameter[2][@type='io.fyno.pushlibrary.notification.NotificationChannel'] and parameter[3][@type='io.fyno.pushlibrary.notification.BasicNotification'] and parameter[4][@type='io.fyno.pushlibrary.notification.BigText'] and parameter[5][@type='io.fyno.pushlibrary.notification.BigPicture'] and parameter[6][@type='java.util.List&lt;io.fyno.pushlibrary.notification.Actions&gt;'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='java.lang.String'] and parameter[9][@type='java.lang.String']]"
+		[Register ("copy", "(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/NotificationModel;", "")]
+		public unsafe global::IO.Fyno.Pushlibrary.Notification.NotificationModel Copy (string id, global::IO.Fyno.Pushlibrary.Notification.NotificationChannel notificationChannel, global::IO.Fyno.Pushlibrary.Notification.BasicNotification BasicNotification, global::IO.Fyno.Pushlibrary.Notification.BigText bigText, global::IO.Fyno.Pushlibrary.Notification.BigPicture bigPicture, global::System.Collections.Generic.IList<global::IO.Fyno.Pushlibrary.Notification.Actions> actions, string @callback, string template, string additional_data)
+		{
+			const string __id = "copy.(Ljava/lang/String;Lio/fyno/pushlibrary/notification/NotificationChannel;Lio/fyno/pushlibrary/notification/BasicNotification;Lio/fyno/pushlibrary/notification/BigText;Lio/fyno/pushlibrary/notification/BigPicture;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lio/fyno/pushlibrary/notification/NotificationModel;";
 			IntPtr native_id = JNIEnv.NewString ((string)id);
 			IntPtr native_actions = global::Android.Runtime.JavaList<global::IO.Fyno.Pushlibrary.Notification.Actions>.ToLocalJniHandle (actions);
 			IntPtr native__callback = JNIEnv.NewString ((string)@callback);
 			IntPtr native_template = JNIEnv.NewString ((string)template);
+			IntPtr native_additional_data = JNIEnv.NewString ((string)additional_data);
 			try {
-				JniArgumentValue* __args = stackalloc JniArgumentValue [8];
+				JniArgumentValue* __args = stackalloc JniArgumentValue [9];
 				__args [0] = new JniArgumentValue (native_id);
 				__args [1] = new JniArgumentValue ((notificationChannel == null) ? IntPtr.Zero : ((global::Java.Lang.Object) notificationChannel).Handle);
 				__args [2] = new JniArgumentValue ((BasicNotification == null) ? IntPtr.Zero : ((global::Java.Lang.Object) BasicNotification).Handle);
@@ -317,6 +346,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				__args [5] = new JniArgumentValue (native_actions);
 				__args [6] = new JniArgumentValue (native__callback);
 				__args [7] = new JniArgumentValue (native_template);
+				__args [8] = new JniArgumentValue (native_additional_data);
 				var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, __args);
 				return global::Java.Lang.Object.GetObject<global::IO.Fyno.Pushlibrary.Notification.NotificationModel> (__rm.Handle, JniHandleOwnership.TransferLocalRef);
 			} finally {
@@ -324,6 +354,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				JNIEnv.DeleteLocalRef (native_actions);
 				JNIEnv.DeleteLocalRef (native__callback);
 				JNIEnv.DeleteLocalRef (native_template);
+				JNIEnv.DeleteLocalRef (native_additional_data);
 				global::System.GC.KeepAlive (notificationChannel);
 				global::System.GC.KeepAlive (BasicNotification);
 				global::System.GC.KeepAlive (bigText);

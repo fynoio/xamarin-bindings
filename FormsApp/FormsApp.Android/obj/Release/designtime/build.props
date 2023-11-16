@@ -9,7 +9,7 @@ androidlinktool=
 androidlinkresources=false
 androidpackageformat=apk
 embedassembliesintoapk=true
-androidlinkmode=sdkonly
+androidlinkmode=full
 androidlinkskip=
 androidsdkbuildtoolsversion=32.0.0
 androidsdkpath=/users/saivinodk/library/android/sdk/
@@ -25,7 +25,7 @@ androidgeneratejnimarshalmethods=false
 os=unix
 androidincludedebugsymbols=false
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638347810369520878
+_nugetassetstimestamp=638354719554715772
 typemapkind=mvid
 androidsupportedabis=armeabi-v7a
 arm64-v8a

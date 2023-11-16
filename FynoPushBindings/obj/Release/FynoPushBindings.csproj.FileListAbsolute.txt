@@ -1,5 +1,9 @@
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/FynoPushBindings.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/FynoPushBindings.pdb
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.Android.Glide.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.Android.Glide.Annotations.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.Android.Glide.DiskLruCache.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.Android.Glide.GifDecoder.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.Activity.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.Activity.pdb
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.Annotation.dll
@@ -26,6 +30,8 @@
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.CustomView.pdb
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.DocumentFile.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.DocumentFile.pdb
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.ExifInterface.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.ExifInterface.pdb
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.Fragment.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.Fragment.pdb
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.Interpolator.dll
@@ -58,6 +64,10 @@
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.Startup.StartupRuntime.pdb
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.Tracing.Tracing.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.Tracing.Tracing.pdb
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VectorDrawable.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VectorDrawable.pdb
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VectorDrawable.Animated.dll
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VectorDrawable.Animated.pdb
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VersionedParcelable.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VersionedParcelable.pdb
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.ViewPager.dll
@@ -131,7 +141,6 @@
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.KotlinX.Coroutines.Core.Jvm.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/__AndroidLibraryProjects__.zip
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/MonoAndroid,Version=v13.0.AssemblyAttributes.cs
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/FynoPushBindings.csproj.AssemblyReference.cache
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/stamp/_BuildLibraryImportsCache.stamp
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/class-parse.rsp
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/java-resolution-report.log
@@ -139,13 +148,4 @@
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/FynoPushBindings.csproj.CopyComplete
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/FynoPushBindings.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/FynoPushBindings.pdb
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.Android.Glide.dll
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.Android.Glide.Annotations.dll
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.Android.Glide.DiskLruCache.dll
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.Android.Glide.GifDecoder.dll
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.ExifInterface.dll
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.ExifInterface.pdb
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VectorDrawable.dll
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VectorDrawable.pdb
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VectorDrawable.Animated.dll
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/bin/Release/Xamarin.AndroidX.VectorDrawable.Animated.pdb
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoPushBindings/obj/Release/FynoPushBindings.csproj.AssemblyReference.cache

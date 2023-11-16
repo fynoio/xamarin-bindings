@@ -248,17 +248,6 @@ namespace IO.Fyno.Core {
 				}
 			}
 
-			// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.core']/class[@name='FynoCore.Companion']/method[@name='testNetwork' and count(parameter)=0]"
-			[Register ("testNetwork", "()V", "")]
-			public unsafe void TestNetwork ()
-			{
-				const string __id = "testNetwork.()V";
-				try {
-					_members.InstanceMethods.InvokeNonvirtualVoidMethod (__id, this, null);
-				} finally {
-				}
-			}
-
 		}
 
 		static readonly JniPeerMembers _members = new XAPeerMembers ("io/fyno/core/FynoCore", typeof (FynoCore));

@@ -11,7 +11,8 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:label="FormsApp.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:extractNativeLibs="true">
+  <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+  <application android:label="FormsApp.Android" android:theme="@style/MainTheme" android:extractNativeLibs="false" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="FormsApp" android:theme="@style/MainTheme" android:name="crc644e072abbc21dea35.MainActivity" android:exported="true">
       <intent-filter>

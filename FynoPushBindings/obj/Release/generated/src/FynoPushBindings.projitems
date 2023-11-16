@@ -24,6 +24,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.NotificationModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.NotificationPriority.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.Notification.RawMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.NotificationIntents.INotificationClickHandler.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.NotificationIntents.NotificationClickActivity.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO.Fyno.Pushlibrary.NotificationIntents.NotificationDismissedReceiver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />

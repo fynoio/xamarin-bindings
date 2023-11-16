@@ -2650,7 +2650,7 @@
           "buildTransitive/monoandroid12.0/Xamarin.Firebase.Messaging.targets": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2612": {
+      "Xamarin.Forms/5.0.0.2622": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.AppCompat": "[1.6.0, 1.7.0)",
@@ -3513,8 +3513,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/FormsApp.dll": {}
@@ -5725,10 +5725,10 @@
         "xamarin.firebase.messaging.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2612": {
-      "sha512": "zQcy3NJgRJnLRWQZ2TZPCgDoTDHoYskHLutKDvz1pVNtvJ8U7kkg4mE2XATs3dAkQ+oWoqB4VOBGRk9uAfoRMw==",
+    "Xamarin.Forms/5.0.0.2622": {
+      "sha512": "vuhBbYbYM2fir0HkKeWBt3r+KzfJmXQQj4SlRYqRD/3MG9WS385T2VPuvakXMKgsGEkamaRyZacQ8ZPdac6cpA==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2612",
+      "path": "xamarin.forms/5.0.0.2622",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5939,7 +5939,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2612.nupkg.sha512",
+        "xamarin.forms.5.0.0.2622.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -6570,7 +6570,7 @@
       "FynoPushBindings >= 1.0.0",
       "Xamarin.Essentials >= 1.8.0",
       "Xamarin.Firebase.Messaging >= 123.2.1.1",
-      "Xamarin.Forms >= 5.0.0.2612",
+      "Xamarin.Forms >= 5.0.0.2622",
       "Xamarin.GooglePlayServices.Base >= 118.2.0.4"
     ]
   },
@@ -6631,7 +6631,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2612, )"
+            "version": "[5.0.0.2622, )"
           },
           "Xamarin.GooglePlayServices.Base": {
             "target": "Package",

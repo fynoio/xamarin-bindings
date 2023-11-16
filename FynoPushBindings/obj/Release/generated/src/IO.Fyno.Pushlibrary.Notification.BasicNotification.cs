@@ -46,11 +46,11 @@ namespace IO.Fyno.Pushlibrary.Notification {
 		{
 		}
 
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='BasicNotification']/constructor[@name='BasicNotification' and count(parameter)=21 and parameter[1][@type='io.fyno.pushlibrary.notification.NotificationPriority'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.lang.String'] and parameter[6][@type='java.lang.String'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='java.lang.String'] and parameter[9][@type='java.lang.String'] and parameter[10][@type='java.lang.String'] and parameter[11][@type='java.lang.String'] and parameter[12][@type='java.lang.String'] and parameter[13][@type='java.lang.String'] and parameter[14][@type='java.lang.Boolean'] and parameter[15][@type='java.lang.Long'] and parameter[16][@type='java.lang.String'] and parameter[17][@type='java.lang.Boolean'] and parameter[18][@type='java.lang.Boolean'] and parameter[19][@type='java.lang.Long'] and parameter[20][@type='java.lang.Boolean'] and parameter[21][@type='java.lang.Long']]"
-		[Register (".ctor", "(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;)V", "")]
-		public unsafe BasicNotification (global::IO.Fyno.Pushlibrary.Notification.NotificationPriority priority, string smallIconDrawable, string color, string contentTitle, string subTitle, string contentText, string ticker, string largeIconUrl, string action, string sound, string category, string group, string groupSubText, global::Java.Lang.Boolean groupShowWhenTimeStamp, global::Java.Lang.Long groupWhenTimeStamp, string sortKey, global::Java.Lang.Boolean onGoing, global::Java.Lang.Boolean autoCancel, global::Java.Lang.Long timeoutAfter, global::Java.Lang.Boolean showWhenTimeStamp, global::Java.Lang.Long whenTimeStamp) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='BasicNotification']/constructor[@name='BasicNotification' and count(parameter)=22 and parameter[1][@type='io.fyno.pushlibrary.notification.NotificationPriority'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.lang.String'] and parameter[6][@type='java.lang.String'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='java.lang.String'] and parameter[9][@type='java.lang.String'] and parameter[10][@type='java.lang.String'] and parameter[11][@type='java.lang.String'] and parameter[12][@type='java.lang.String'] and parameter[13][@type='java.lang.String'] and parameter[14][@type='java.lang.Boolean'] and parameter[15][@type='java.lang.Long'] and parameter[16][@type='java.lang.String'] and parameter[17][@type='java.lang.Boolean'] and parameter[18][@type='java.lang.Boolean'] and parameter[19][@type='java.lang.Long'] and parameter[20][@type='java.lang.Boolean'] and parameter[21][@type='java.lang.Long'] and parameter[22][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;']]"
+		[Register (".ctor", "(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/Map;)V", "")]
+		public unsafe BasicNotification (global::IO.Fyno.Pushlibrary.Notification.NotificationPriority priority, string smallIconDrawable, string color, string contentTitle, string subTitle, string contentText, string ticker, string largeIconUrl, string action, string sound, string category, string group, string groupSubText, global::Java.Lang.Boolean groupShowWhenTimeStamp, global::Java.Lang.Long groupWhenTimeStamp, string sortKey, global::Java.Lang.Boolean onGoing, global::Java.Lang.Boolean autoCancel, global::Java.Lang.Long timeoutAfter, global::Java.Lang.Boolean showWhenTimeStamp, global::Java.Lang.Long whenTimeStamp, global::System.Collections.Generic.IDictionary<string, string> additional_data) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
-			const string __id = "(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;)V";
+			const string __id = "(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/Map;)V";
 
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
@@ -68,8 +68,9 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			IntPtr native_group = JNIEnv.NewString ((string)group);
 			IntPtr native_groupSubText = JNIEnv.NewString ((string)groupSubText);
 			IntPtr native_sortKey = JNIEnv.NewString ((string)sortKey);
+			IntPtr native_additional_data = global::Android.Runtime.JavaDictionary<string, string>.ToLocalJniHandle (additional_data);
 			try {
-				JniArgumentValue* __args = stackalloc JniArgumentValue [21];
+				JniArgumentValue* __args = stackalloc JniArgumentValue [22];
 				__args [0] = new JniArgumentValue ((priority == null) ? IntPtr.Zero : ((global::Java.Lang.Object) priority).Handle);
 				__args [1] = new JniArgumentValue (native_smallIconDrawable);
 				__args [2] = new JniArgumentValue (native_color);
@@ -91,6 +92,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				__args [18] = new JniArgumentValue ((timeoutAfter == null) ? IntPtr.Zero : ((global::Java.Lang.Object) timeoutAfter).Handle);
 				__args [19] = new JniArgumentValue ((showWhenTimeStamp == null) ? IntPtr.Zero : ((global::Java.Lang.Object) showWhenTimeStamp).Handle);
 				__args [20] = new JniArgumentValue ((whenTimeStamp == null) ? IntPtr.Zero : ((global::Java.Lang.Object) whenTimeStamp).Handle);
+				__args [21] = new JniArgumentValue (native_additional_data);
 				var __r = _members.InstanceMethods.StartCreateInstance (__id, ((object) this).GetType (), __args);
 				SetHandle (__r.Handle, JniHandleOwnership.TransferLocalRef);
 				_members.InstanceMethods.FinishCreateInstance (__id, this, __args);
@@ -108,6 +110,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				JNIEnv.DeleteLocalRef (native_group);
 				JNIEnv.DeleteLocalRef (native_groupSubText);
 				JNIEnv.DeleteLocalRef (native_sortKey);
+				JNIEnv.DeleteLocalRef (native_additional_data);
 				global::System.GC.KeepAlive (priority);
 				global::System.GC.KeepAlive (groupShowWhenTimeStamp);
 				global::System.GC.KeepAlive (groupWhenTimeStamp);
@@ -116,6 +119,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				global::System.GC.KeepAlive (timeoutAfter);
 				global::System.GC.KeepAlive (showWhenTimeStamp);
 				global::System.GC.KeepAlive (whenTimeStamp);
+				global::System.GC.KeepAlive (additional_data);
 			}
 		}
 
@@ -127,6 +131,19 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				try {
 					var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, null);
 					return JNIEnv.GetString (__rm.Handle, JniHandleOwnership.TransferLocalRef);
+				} finally {
+				}
+			}
+		}
+
+		public unsafe global::System.Collections.Generic.IDictionary<string, string> Additional_data {
+			// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='BasicNotification']/method[@name='getAdditional_data' and count(parameter)=0]"
+			[Register ("getAdditional_data", "()Ljava/util/Map;", "")]
+			get {
+				const string __id = "getAdditional_data.()Ljava/util/Map;";
+				try {
+					var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, null);
+					return global::Android.Runtime.JavaDictionary<string, string>.FromJniHandle (__rm.Handle, JniHandleOwnership.TransferLocalRef);
 				} finally {
 				}
 			}
@@ -560,6 +577,18 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			}
 		}
 
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='BasicNotification']/method[@name='component22' and count(parameter)=0]"
+		[Register ("component22", "()Ljava/util/Map;", "")]
+		public unsafe global::System.Collections.Generic.IDictionary<string, string> Component22 ()
+		{
+			const string __id = "component22.()Ljava/util/Map;";
+			try {
+				var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, null);
+				return global::Android.Runtime.JavaDictionary<string, string>.FromJniHandle (__rm.Handle, JniHandleOwnership.TransferLocalRef);
+			} finally {
+			}
+		}
+
 		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='BasicNotification']/method[@name='component3' and count(parameter)=0]"
 		[Register ("component3", "()Ljava/lang/String;", "")]
 		public unsafe string Component3 ()
@@ -644,11 +673,11 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			}
 		}
 
-		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='BasicNotification']/method[@name='copy' and count(parameter)=21 and parameter[1][@type='io.fyno.pushlibrary.notification.NotificationPriority'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.lang.String'] and parameter[6][@type='java.lang.String'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='java.lang.String'] and parameter[9][@type='java.lang.String'] and parameter[10][@type='java.lang.String'] and parameter[11][@type='java.lang.String'] and parameter[12][@type='java.lang.String'] and parameter[13][@type='java.lang.String'] and parameter[14][@type='java.lang.Boolean'] and parameter[15][@type='java.lang.Long'] and parameter[16][@type='java.lang.String'] and parameter[17][@type='java.lang.Boolean'] and parameter[18][@type='java.lang.Boolean'] and parameter[19][@type='java.lang.Long'] and parameter[20][@type='java.lang.Boolean'] and parameter[21][@type='java.lang.Long']]"
-		[Register ("copy", "(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;)Lio/fyno/pushlibrary/notification/BasicNotification;", "")]
-		public unsafe global::IO.Fyno.Pushlibrary.Notification.BasicNotification Copy (global::IO.Fyno.Pushlibrary.Notification.NotificationPriority priority, string smallIconDrawable, string color, string contentTitle, string subTitle, string contentText, string ticker, string largeIconUrl, string action, string sound, string category, string group, string groupSubText, global::Java.Lang.Boolean groupShowWhenTimeStamp, global::Java.Lang.Long groupWhenTimeStamp, string sortKey, global::Java.Lang.Boolean onGoing, global::Java.Lang.Boolean autoCancel, global::Java.Lang.Long timeoutAfter, global::Java.Lang.Boolean showWhenTimeStamp, global::Java.Lang.Long whenTimeStamp)
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notification']/class[@name='BasicNotification']/method[@name='copy' and count(parameter)=22 and parameter[1][@type='io.fyno.pushlibrary.notification.NotificationPriority'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.lang.String'] and parameter[6][@type='java.lang.String'] and parameter[7][@type='java.lang.String'] and parameter[8][@type='java.lang.String'] and parameter[9][@type='java.lang.String'] and parameter[10][@type='java.lang.String'] and parameter[11][@type='java.lang.String'] and parameter[12][@type='java.lang.String'] and parameter[13][@type='java.lang.String'] and parameter[14][@type='java.lang.Boolean'] and parameter[15][@type='java.lang.Long'] and parameter[16][@type='java.lang.String'] and parameter[17][@type='java.lang.Boolean'] and parameter[18][@type='java.lang.Boolean'] and parameter[19][@type='java.lang.Long'] and parameter[20][@type='java.lang.Boolean'] and parameter[21][@type='java.lang.Long'] and parameter[22][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;']]"
+		[Register ("copy", "(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/Map;)Lio/fyno/pushlibrary/notification/BasicNotification;", "")]
+		public unsafe global::IO.Fyno.Pushlibrary.Notification.BasicNotification Copy (global::IO.Fyno.Pushlibrary.Notification.NotificationPriority priority, string smallIconDrawable, string color, string contentTitle, string subTitle, string contentText, string ticker, string largeIconUrl, string action, string sound, string category, string group, string groupSubText, global::Java.Lang.Boolean groupShowWhenTimeStamp, global::Java.Lang.Long groupWhenTimeStamp, string sortKey, global::Java.Lang.Boolean onGoing, global::Java.Lang.Boolean autoCancel, global::Java.Lang.Long timeoutAfter, global::Java.Lang.Boolean showWhenTimeStamp, global::Java.Lang.Long whenTimeStamp, global::System.Collections.Generic.IDictionary<string, string> additional_data)
 		{
-			const string __id = "copy.(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;)Lio/fyno/pushlibrary/notification/BasicNotification;";
+			const string __id = "copy.(Lio/fyno/pushlibrary/notification/NotificationPriority;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/util/Map;)Lio/fyno/pushlibrary/notification/BasicNotification;";
 			IntPtr native_smallIconDrawable = JNIEnv.NewString ((string)smallIconDrawable);
 			IntPtr native_color = JNIEnv.NewString ((string)color);
 			IntPtr native_contentTitle = JNIEnv.NewString ((string)contentTitle);
@@ -662,8 +691,9 @@ namespace IO.Fyno.Pushlibrary.Notification {
 			IntPtr native_group = JNIEnv.NewString ((string)group);
 			IntPtr native_groupSubText = JNIEnv.NewString ((string)groupSubText);
 			IntPtr native_sortKey = JNIEnv.NewString ((string)sortKey);
+			IntPtr native_additional_data = global::Android.Runtime.JavaDictionary<string, string>.ToLocalJniHandle (additional_data);
 			try {
-				JniArgumentValue* __args = stackalloc JniArgumentValue [21];
+				JniArgumentValue* __args = stackalloc JniArgumentValue [22];
 				__args [0] = new JniArgumentValue ((priority == null) ? IntPtr.Zero : ((global::Java.Lang.Object) priority).Handle);
 				__args [1] = new JniArgumentValue (native_smallIconDrawable);
 				__args [2] = new JniArgumentValue (native_color);
@@ -685,6 +715,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				__args [18] = new JniArgumentValue ((timeoutAfter == null) ? IntPtr.Zero : ((global::Java.Lang.Object) timeoutAfter).Handle);
 				__args [19] = new JniArgumentValue ((showWhenTimeStamp == null) ? IntPtr.Zero : ((global::Java.Lang.Object) showWhenTimeStamp).Handle);
 				__args [20] = new JniArgumentValue ((whenTimeStamp == null) ? IntPtr.Zero : ((global::Java.Lang.Object) whenTimeStamp).Handle);
+				__args [21] = new JniArgumentValue (native_additional_data);
 				var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod (__id, this, __args);
 				return global::Java.Lang.Object.GetObject<global::IO.Fyno.Pushlibrary.Notification.BasicNotification> (__rm.Handle, JniHandleOwnership.TransferLocalRef);
 			} finally {
@@ -701,6 +732,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				JNIEnv.DeleteLocalRef (native_group);
 				JNIEnv.DeleteLocalRef (native_groupSubText);
 				JNIEnv.DeleteLocalRef (native_sortKey);
+				JNIEnv.DeleteLocalRef (native_additional_data);
 				global::System.GC.KeepAlive (priority);
 				global::System.GC.KeepAlive (groupShowWhenTimeStamp);
 				global::System.GC.KeepAlive (groupWhenTimeStamp);
@@ -709,6 +741,7 @@ namespace IO.Fyno.Pushlibrary.Notification {
 				global::System.GC.KeepAlive (timeoutAfter);
 				global::System.GC.KeepAlive (showWhenTimeStamp);
 				global::System.GC.KeepAlive (whenTimeStamp);
+				global::System.GC.KeepAlive (additional_data);
 			}
 		}
 

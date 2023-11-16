@@ -2,10 +2,10 @@
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/bin/Release/FynoKotlinBindings.pdb
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/__AndroidLibraryProjects__.zip
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/MonoAndroid,Version=v13.0.AssemblyAttributes.cs
+/Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/FynoKotlinBindings.csproj.AssemblyReference.cache
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/stamp/_BuildLibraryImportsCache.stamp
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/class-parse.rsp
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/java-resolution-report.log
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/FynoKotlinBindings.csproj.CoreCompileInputs.cache
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/FynoKotlinBindings.dll
 /Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/FynoKotlinBindings.pdb
-/Users/saivinodk/Projects/FynoAndroidBindings/FynoKotlinBindings/obj/Release/FynoKotlinBindings.csproj.AssemblyReference.cache

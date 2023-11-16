@@ -63,5 +63,32 @@ namespace IO.Fyno.Pushlibrary.NotificationIntents {
 			}
 		}
 
+		static Delegate cb_onAction;
+#pragma warning disable 0169
+		static Delegate GetOnActionHandler ()
+		{
+			if (cb_onAction == null)
+				cb_onAction = JNINativeWrapper.CreateDelegate (new _JniMarshal_PP_V (n_OnAction));
+			return cb_onAction;
+		}
+
+		static void n_OnAction (IntPtr jnienv, IntPtr native__this)
+		{
+			var __this = global::Java.Lang.Object.GetObject<global::IO.Fyno.Pushlibrary.NotificationIntents.NotificationClickActivity> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+			__this.OnAction ();
+		}
+#pragma warning restore 0169
+
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.fyno.pushlibrary.notificationIntents']/class[@name='NotificationClickActivity']/method[@name='onAction' and count(parameter)=0]"
+		[Register ("onAction", "()V", "GetOnActionHandler")]
+		public virtual unsafe void OnAction ()
+		{
+			const string __id = "onAction.()V";
+			try {
+				_members.InstanceMethods.InvokeVirtualVoidMethod (__id, this, null);
+			} finally {
+			}
+		}
+
 	}
 }

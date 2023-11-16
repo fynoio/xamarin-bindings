@@ -11,6 +11,7 @@ using IO.Fyno.Core;
 using IO.Fyno.Kotlin_sdk;
 using IO.Fyno.Pushlibrary;
 using Android.Gms.Common;
+using Android.Content;
 
 namespace FormsApp.Droid
 {
@@ -19,6 +20,11 @@ namespace FormsApp.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            String action = this.Intent.GetStringExtra("io.fyno.pushlibrary.notification.action");
+            if(action != null)
+            {
+                Console.WriteLine(this.Intent.GetStringExtra("io.fyno.pushlibrary.notification.payload"));
+            }
             base.OnCreate(savedInstanceState);
             FynoSdk.Instance.Initialize(this, "WSID", "API_KEY", null, "live");
             FynoSdk.Instance.Identify("DISTINCT_ID", "NAME/null");

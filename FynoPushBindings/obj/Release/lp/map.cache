@@ -21,6 +21,11 @@ androidx.print.print.aar
 androidx.localbroadcastmanager.localbroadcastmanager.aar
 androidx.documentfile.documentfile.aar
 androidx.legacy.legacy-support-core-utils.aar
+androidx.vectordrawable.vectordrawable.aar
+androidx.vectordrawable.vectordrawable-animated.aar
+androidx.exifinterface.exifinterface.aar
+gifdecoder.aar
+glide.aar
 playservicesbasement-18.2.0.aar
 playservicestasks-18.0.2.aar
 playservicesstats-17.0.3.aar
@@ -45,8 +50,3 @@ firebasemessaging-23.2.1.aar
 firebaseiid-21.1.0.aar
 firebaseanalytics-21.3.0.aar
 firebasecore-21.1.1.aar
-androidx.vectordrawable.vectordrawable.aar
-androidx.vectordrawable.vectordrawable-animated.aar
-androidx.exifinterface.exifinterface.aar
-gifdecoder.aar
-glide.aar
